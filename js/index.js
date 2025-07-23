@@ -424,7 +424,7 @@ document.addEventListener("DOMContentLoaded", function () {
       button.textContent = y;
       button.dataset.year = y;
       button.className =
-        "year-button py-1 px-3 text-xs font-medium text-stone-700 bg-white rounded-md border border-stone-200 hover:bg-stone-100 transition-colors";
+        "year-button py-1 px-3 text-sm font-medium text-stone-700 bg-white rounded-md border border-stone-200 hover:bg-stone-100 hover:text-stone-700 transition-colors";
       if (y === currentYear) button.classList.add("active");
       button.addEventListener("click", () => {
         currentYear = y;
