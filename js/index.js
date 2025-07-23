@@ -30,13 +30,13 @@ document.addEventListener("DOMContentLoaded", function () {
     "modal-total-prize-container"
   );
 
-  document.querySelectorAll('.tab-button').forEach(button => {
-    button.addEventListener('click', () => {
-      document.querySelectorAll('.tab-button').forEach(btn => {
-        btn.removeAttribute('data-selected');
+  document.querySelectorAll(".tab-button").forEach((button) => {
+    button.addEventListener("click", () => {
+      document.querySelectorAll(".tab-button").forEach((btn) => {
+        btn.removeAttribute("data-selected");
         btn.classList.remove("active");
       });
-      button.setAttribute('data-selected', 'true');
+      button.setAttribute("data-selected", "true");
       button.classList.add("active");
     });
   });
@@ -274,7 +274,23 @@ document.addEventListener("DOMContentLoaded", function () {
       if (mid === 0) break;
 
       updateLoadingProgress(`Verificando concurso ${mid}...`);
-      const data = await fetchLotteryData(game, mid, signal);
+      const concursoExistente = await buscarDadosJson(mid);
+      const data = concursoExistente
+        ? concursoExistente
+        : await fetchLotteryData(game, mid, signal);
+
+      if (!data.error) {
+        if (!concursoExistente) {
+          if (!concursos[currentGame][data.year]) {
+            concursos[currentGame][data.year] = [];
+          }
+          if (
+            !concursos[currentGame][data.year]?.find((c) => c.numero === mid)
+          ) {
+            concursos[currentGame][data.year].push(data);
+          }
+        }
+      }
 
       if (data && !data.error && !data.aborted) {
         if (findFirst) {
@@ -300,7 +316,60 @@ document.addEventListener("DOMContentLoaded", function () {
         high = mid - 1;
       }
     }
+    ordenarConcursosPorNumero(concursos);
     return boundaryContest;
+  }
+
+  let concursos = {};
+  const tiposDeJogo = ["megasena", "lotofacil", "quina"];
+  async function buscarDadosJson(numeroConcurso) {
+    if (!concursos[currentGame]) concursos[currentGame] = {};
+    if (!tiposDeJogo.includes(currentGame)) {
+      /*console.warn(
+        `Tipo de jogo "${currentGame}" não está registrado em tiposDeJogo.`
+      );*/
+      return;
+    }
+    try {
+      const response = await fetch(`../dados/${currentGame}.json`);
+      const jsonConcursos = await response.json();
+      //console.log(jsonConcursos);
+      for (const ano in jsonConcursos) {
+        const emJsonLocal = jsonConcursos[ano].find(
+          (c) => c.numero === numeroConcurso
+        );
+        if (emJsonLocal) {
+          if (!concursos[currentGame][emJsonLocal.year])
+            concursos[currentGame][emJsonLocal.year] = [];
+          if (
+            !concursos[currentGame][emJsonLocal.year]?.find(
+              (c) => c.numero === numeroConcurso
+            )
+          ) {
+            concursos[currentGame][emJsonLocal.year].push(emJsonLocal);
+          }
+          return emJsonLocal;
+        }
+      }
+    } catch (e) {
+      return false;
+    }
+  }
+
+  /*function buscarConcursoPorNumero(concursos, numeroProcurado) {
+    for (const ano in concursos) {
+      const encontrado = concursos[ano].find(
+        (c) => c.numero === numeroProcurado
+      );
+      if (encontrado) return encontrado;
+    }
+    return null;
+  }*/
+
+  function ordenarConcursosPorNumero(concursos) {
+    for (const ano in concursos[currentGame]) {
+      concursos[currentGame][ano].sort((a, b) => a.numero - b.numero);
+    }
   }
 
   async function loadYearData() {
@@ -367,7 +436,28 @@ document.addEventListener("DOMContentLoaded", function () {
       if (signal.aborted) break;
 
       updateLoadingProgress(`Buscando concurso ${contestToFetch}...`);
-      const data = await fetchLotteryData(currentGame, contestToFetch, signal);
+      const concursoExistente = await buscarDadosJson(contestToFetch);
+      const data = concursoExistente
+        ? concursoExistente
+        : await fetchLotteryData(currentGame, contestToFetch, signal);
+      // const jaExiste = concursos[currentYear]?.some(
+      //   (c) => c.numero === contestToFetch
+      // );
+
+      if (!data.error) {
+        if (!concursoExistente) {
+          if (!concursos[currentGame][data.year]) {
+            concursos[currentGame][data.year] = [];
+          }
+          if (
+            !concursos[currentGame][data.year]?.find(
+              (c) => c.numero === contestToFetch
+            )
+          ) {
+            concursos[currentGame][data.year].push(data);
+          }
+        }
+      }
 
       if (data && !data.error && !data.aborted && data.year === currentYear) {
         renderResultCard(drawListContainer, data, currentGame);
@@ -397,21 +487,24 @@ document.addEventListener("DOMContentLoaded", function () {
         drawListContainer.innerHTML = `<p class="col-span-full text-center text-stone-500 p-8">Nenhum resultado encontrado para ${currentGame} em ${currentYear}.</p>`;
       }
     }
+    console.log(concursos);
+    ordenarConcursosPorNumero(concursos);
   }
 
   function getGameName(game) {
-     const gameName = game === "megasena"
+    const gameName =
+      game === "megasena"
         ? "Mega-Sena"
         : game === "lotofacil"
         ? "Loto-Fácil"
         : "Quina";
 
-        return `Explorar ${gameName} por Ano`
+    return `Explorar ${gameName} por Ano`;
   }
 
   function setupYearSelector() {
     yearSelector.innerHTML = "";
-    explorar.innerHTML = "Explorar por Ano"
+    explorar.innerHTML = "Explorar por Ano";
     const startYear =
       currentGame === "megasena"
         ? 1996
@@ -448,7 +541,11 @@ document.addEventListener("DOMContentLoaded", function () {
     hideError();
     showLoading(true);
     updateLoadingProgress(`Buscando concurso ${contestNumber}...`);
-    const data = await fetchLotteryData(currentGame, contestNumber);
+    const concursoExistente = await buscarDadosJson(+contestNumber);
+    console.log(concursoExistente);
+    const data = concursoExistente
+      ? concursoExistente
+      : await fetchLotteryData(currentGame, contestNumber);
     showLoading(false);
     if (data && !data.error) {
       showModal(data, currentGame);
