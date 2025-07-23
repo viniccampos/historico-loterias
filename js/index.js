@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const gameTabLf = document.getElementById("game-tab-lf");
   const gameTabQn = document.getElementById("game-tab-qn");
   const yearSelector = document.getElementById("year-selector");
+  const explorar = document.getElementById("explorar");
   const drawListContainer = document.getElementById("draw-list");
   const loadingIndicator = document.getElementById("loading-indicator");
   const loadingProgress = document.getElementById("loading-progress");
@@ -28,6 +29,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const modalTotalPrizeContainer = document.getElementById(
     "modal-total-prize-container"
   );
+
+  document.querySelectorAll('.tab-button').forEach(button => {
+    button.addEventListener('click', () => {
+      document.querySelectorAll('.tab-button').forEach(btn => {
+        btn.removeAttribute('data-selected');
+        btn.classList.remove("active");
+      });
+      button.setAttribute('data-selected', 'true');
+      button.classList.add("active");
+    });
+  });
 
   const formatPrize = (value) =>
     `R$ ${value.toLocaleString("pt-BR", {
@@ -387,8 +399,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  function getGameName(game) {
+     const gameName = game === "megasena"
+        ? "Mega-Sena"
+        : game === "lotofacil"
+        ? "Loto-Fácil"
+        : "Quina";
+
+        return `Explorar ${gameName} por Ano`
+  }
+
   function setupYearSelector() {
     yearSelector.innerHTML = "";
+    explorar.innerHTML = "Explorar por Ano"
     const startYear =
       currentGame === "megasena"
         ? 1996
@@ -413,6 +436,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
       yearSelector.appendChild(button);
     }
+    explorar.innerHTML = getGameName(currentGame);
   }
 
   async function handleContestSearch() {
@@ -444,9 +468,9 @@ document.addEventListener("DOMContentLoaded", function () {
   gameTabMs.addEventListener("click", () => {
     currentGame = "megasena";
     currentYear = new Date().getFullYear();
-    gameTabMs.classList.add("active");
+    /*gameTabMs.classList.add("active");
     gameTabLf.classList.remove("active");
-    gameTabQn.classList.remove("active");
+    gameTabQn.classList.remove("active");*/
     setupYearSelector();
     loadYearData();
   });
@@ -454,9 +478,9 @@ document.addEventListener("DOMContentLoaded", function () {
   gameTabLf.addEventListener("click", () => {
     currentGame = "lotofacil";
     currentYear = new Date().getFullYear();
-    gameTabLf.classList.add("active");
+    /*gameTabLf.classList.add("active");
     gameTabMs.classList.remove("active");
-    gameTabQn.classList.remove("active");
+    gameTabQn.classList.remove("active");*/
     setupYearSelector();
     loadYearData();
   });
@@ -464,9 +488,9 @@ document.addEventListener("DOMContentLoaded", function () {
   gameTabQn.addEventListener("click", () => {
     currentGame = "quina";
     currentYear = new Date().getFullYear();
-    gameTabQn.classList.add("active");
+    /*/gameTabQn.classList.add("active");
     gameTabMs.classList.remove("active");
-    gameTabLf.classList.remove("active");
+    gameTabLf.classList.remove("active");*/
     setupYearSelector();
     loadYearData();
   });
