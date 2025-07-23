@@ -541,11 +541,11 @@ document.addEventListener("DOMContentLoaded", function () {
     hideError();
     showLoading(true);
     updateLoadingProgress(`Buscando concurso ${contestNumber}...`);
-    const concursoExistente = await buscarDadosJson(+contestNumber);
-    console.log(concursoExistente);
-    const data = concursoExistente
+    //const concursoExistente = await buscarDadosJson(+contestNumber);
+    //console.log(concursoExistente);
+    const data = /*concursoExistente
       ? concursoExistente
-      : await fetchLotteryData(currentGame, contestNumber);
+      :*/ await fetchLotteryData(currentGame, contestNumber);
     showLoading(false);
     if (data && !data.error) {
       showModal(data, currentGame);
