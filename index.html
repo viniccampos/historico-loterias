@@ -39,23 +39,28 @@
                     <div>
                         <h2 class="text-2xl font-bold text-amber-900 mb-2">Loterias</h2>
                         <div class="flex">
-                            <div class="inline-flex rounded-md shadow-sm" role="group">
+                            <div class="flex gap-1 rounded-full bg-gray-950/5 p-1" role="tablist"
+                                aria-orientation="horizontal">
                                 <button type="button" id="game-tab-ms"
-                                    class="tab-button active py-2 px-8 text-sm font-medium">
+                                    class="tab-button active group flex items-center rounded-full px-4 py-1.5 text-sm font-medium data-[selected]:ring data-[selected]:ring-gray-950/5"
+                                    data-selected="true">
                                     Mega-Sena
                                 </button>
-                                <button type="button" id="game-tab-lf" class="tab-button py-2 px-8 text-sm font-medium">
+                                <button type="button" id="game-tab-lf"
+                                    class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium data-[selected]:ring data-[selected]:ring-gray-950/5">
                                     Loto-Fácil
                                 </button>
-                                <button type="button" id="game-tab-qn" class="tab-button py-2 px-8 text-sm font-medium">
+                                <button type="button" id="game-tab-qn"
+                                    class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium data-[selected]:ring data-[selected]:ring-gray-950/5">
                                     Quina
                                 </button>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
-                <h2 class="text-2xl font-bold text-amber-900 text-center mb-4">Explorar por Ano</h2>
+                <h2 id="explorar" class="text-2xl font-bold text-amber-900 text-center mb-4">Explorar por Ano</h2>
                 <div id="year-selector" class="flex justify-center flex-wrap gap-2 mb-8">
                 </div>
 
