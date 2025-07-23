@@ -487,7 +487,7 @@ document.addEventListener("DOMContentLoaded", function () {
         drawListContainer.innerHTML = `<p class="col-span-full text-center text-stone-500 p-8">Nenhum resultado encontrado para ${currentGame} em ${currentYear}.</p>`;
       }
     }
-    console.log(concursos);
+    //console.log(concursos);
     ordenarConcursosPorNumero(concursos);
   }
 
