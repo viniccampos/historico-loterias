@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const gameTabMs = document.getElementById("game-tab-ms");
   const gameTabLf = document.getElementById("game-tab-lf");
   const gameTabQn = document.getElementById("game-tab-qn");
+  const gameTabLm = document.getElementById("game-tab-lm");
   const yearSelector = document.getElementById("year-selector");
   const explorar = document.getElementById("explorar");
   const drawListContainer = document.getElementById("draw-list");
@@ -133,27 +134,17 @@ document.addEventListener("DOMContentLoaded", function () {
     container.appendChild(card);
   }
 
-  function showModal(data, game) {
-    const gameName =
-      game === "megasena"
-        ? "Mega-Sena"
-        : game === "lotofacil"
-        ? "Loto-Fácil"
-        : "Quina";
+  async function showModal(data, game) {
+    const gameInfo = await getInfoMod(game);
     modalTitle.innerHTML = `
-                    <div class="text-2xl font-bold text-amber-900">${gameName}</div>
+                    <div class="text-2xl font-bold text-amber-900">${gameInfo.nome}</div>
                     <div class="text-sm font-normal text-stone-600">Concurso ${String(
                       data.numero
                     ).padStart(4, "0")} - ${data.dataApuracao}</div>
                 `;
 
     modalDezenas.innerHTML = "";
-    const dezenasColor =
-      game === "megasena"
-        ? "bg-green-100 text-green-800"
-        : game === "lotofacil"
-        ? "bg-purple-100 text-purple-800"
-        : "bg-blue-100 text-blue-800";
+    const dezenasColor = gameInfo.style;
     data.listaDezenas.forEach((dezena) => {
       const ball = document.createElement("div");
       ball.className = `w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg ${dezenasColor}`;
@@ -321,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   let concursos = {};
-  const tiposDeJogo = ["megasena", "lotofacil", "quina"];
+  const tiposDeJogo = ["megasena", "lotofacil", "quina", "lotomania"];
   async function buscarDadosJson(numeroConcurso) {
     if (!concursos[currentGame]) concursos[currentGame] = {};
     if (!tiposDeJogo.includes(currentGame)) {
@@ -491,26 +482,18 @@ document.addEventListener("DOMContentLoaded", function () {
     ordenarConcursosPorNumero(concursos);
   }
 
-  function getGameName(game) {
-    const gameName =
-      game === "megasena"
-        ? "Mega-Sena"
-        : game === "lotofacil"
-        ? "Loto-Fácil"
-        : "Quina";
+  async function getGameName(game) {
+    const infoMod = await getInfoMod(currentGame);
+    const gameName = infoMod.nome;
 
     return `Explorar ${gameName} por Ano`;
   }
 
-  function setupYearSelector() {
+  async function setupYearSelector() {
+    const infoMod = await getInfoMod(currentGame);
     yearSelector.innerHTML = "";
     explorar.innerHTML = "Explorar por Ano";
-    const startYear =
-      currentGame === "megasena"
-        ? 1996
-        : currentGame === "lotofacil"
-        ? 2003
-        : 1994;
+    const startYear = infoMod.anoinicio;
     const endYear = new Date().getFullYear();
     for (let y = endYear; y >= startYear; y--) {
       const button = document.createElement("button");
@@ -529,10 +512,11 @@ document.addEventListener("DOMContentLoaded", function () {
       });
       yearSelector.appendChild(button);
     }
-    explorar.innerHTML = getGameName(currentGame);
+    explorar.innerHTML = await getGameName(currentGame);
   }
 
   async function handleContestSearch() {
+    const infoMod = await getInfoMod(currentGame);
     const contestNumber = contestSearchInput.value;
     if (!contestNumber) {
       showError("Por favor, digite um número de concurso.");
@@ -551,15 +535,20 @@ document.addEventListener("DOMContentLoaded", function () {
       showModal(data, currentGame);
     } else {
       showError(
-        `Concurso ${contestNumber} não encontrado para ${
-          currentGame === "megasena"
-            ? "Mega-Sena"
-            : currentGame === "lotofacil"
-            ? "Loto-Fácil"
-            : "Quina"
-        }.`
+        `Concurso ${contestNumber} não encontrado para ${infoMod.nome}.`
       );
     }
+  }
+
+  const tiposJogos = [];
+
+  async function getInfoMod(currentGame) {
+    if (tiposJogos.length === 0) {
+      const response = await fetch("../dados/modalidades.json");
+      const data = await response.json();
+      tiposJogos.push(...data);
+    }
+    return tiposJogos.find((c) => c.id === currentGame);
   }
 
   gameTabMs.addEventListener("click", () => {
@@ -584,6 +573,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   gameTabQn.addEventListener("click", () => {
     currentGame = "quina";
+    currentYear = new Date().getFullYear();
+    /*/gameTabQn.classList.add("active");
+    gameTabMs.classList.remove("active");
+    gameTabLf.classList.remove("active");*/
+    setupYearSelector();
+    loadYearData();
+  });
+
+  gameTabLm.addEventListener("click", () => {
+    currentGame = "lotomania";
     currentYear = new Date().getFullYear();
     /*/gameTabQn.classList.add("active");
     gameTabMs.classList.remove("active");
