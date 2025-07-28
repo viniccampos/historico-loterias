@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const gameTabLf = document.getElementById("game-tab-lf");
   const gameTabQn = document.getElementById("game-tab-qn");
   const gameTabLm = document.getElementById("game-tab-lm");
+  const gameTabTm = document.getElementById("game-tab-tm");
   const yearSelector = document.getElementById("year-selector");
   const explorar = document.getElementById("explorar");
   const drawListContainer = document.getElementById("draw-list");
@@ -29,6 +30,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const modalOutrosPremios = document.getElementById("modal-outros-premios");
   const modalTotalPrizeContainer = document.getElementById(
     "modal-total-prize-container"
+  );
+  const modalTimemaniaContainer = document.getElementById(
+    "modal-timemania-container"
   );
 
   document.querySelectorAll(".tab-button").forEach((button) => {
@@ -151,6 +155,14 @@ document.addEventListener("DOMContentLoaded", function () {
       ball.textContent = String(dezena).padStart(2, "0");
       modalDezenas.appendChild(ball);
     });
+
+    if (data.nomeTimeCoracaoMesSorte) {
+      modalTimemaniaContainer.innerHTML = `
+                        <h4 class="font-semibold text-stone-700 mb-1 text-center">Time do Coração</h4>
+                        <h4 class="font-semibold text-yellow-400 text-2xl mb-1">${data.nomeTimeCoracaoMesSorte}</h4>
+                    `;
+      modalTimemaniaContainer.classList.remove("hidden");
+    }
 
     if (data.acumulado) {
       modalTotalPrizeContainer.innerHTML = `
@@ -312,7 +324,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   let concursos = {};
-  const tiposDeJogo = ["megasena", "lotofacil", "quina", "lotomania"];
+  const tiposDeJogo = ["megasena", "lotofacil", "quina", "lotomania", "timemania"];
   async function buscarDadosJson(numeroConcurso) {
     if (!concursos[currentGame]) concursos[currentGame] = {};
     if (!tiposDeJogo.includes(currentGame)) {
@@ -450,7 +462,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
 
-      if (data && !data.error && !data.aborted && data.year === currentYear) {
+      if (data && !data.error && !data.aborted && data.year === currentYear && !signal.aborted) {
         renderResultCard(drawListContainer, data, currentGame);
         if (!data.acumulado) {
           const mainPrizeTier =
@@ -583,6 +595,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   gameTabLm.addEventListener("click", () => {
     currentGame = "lotomania";
+    currentYear = new Date().getFullYear();
+    /*/gameTabQn.classList.add("active");
+    gameTabMs.classList.remove("active");
+    gameTabLf.classList.remove("active");*/
+    setupYearSelector();
+    loadYearData();
+  });
+
+  gameTabTm.addEventListener("click", () => {
+    currentGame = "timemania";
     currentYear = new Date().getFullYear();
     /*/gameTabQn.classList.add("active");
     gameTabMs.classList.remove("active");
