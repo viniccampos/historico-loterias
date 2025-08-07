@@ -27,6 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const modalCloseBtn = document.getElementById("modal-close");
   const modalTitle = document.getElementById("modal-title");
   const modalDezenas = document.getElementById("modal-dezenas");
+  const modalDezenasSegundoSorteio = document.getElementById(
+    "modal-dezenas-segundo-sorteio"
+  );
   const modalOutrosPremios = document.getElementById("modal-outros-premios");
   const modalTotalPrizeContainer = document.getElementById(
     "modal-total-prize-container"
@@ -138,28 +141,102 @@ document.addEventListener("DOMContentLoaded", function () {
     container.appendChild(card);
   }
 
+  function isNotEmpty(value) {
+    console.log(value.trim());
+    return value && value.trim() !== "";
+  }
+
   async function showModal(data, game) {
     const gameInfo = await getInfoMod(game);
     modalTitle.innerHTML = `
-                    <div class="text-2xl font-bold text-amber-900">${gameInfo.nome}</div>
+                    <div class="text-2xl font-bold text-amber-900">${
+                      gameInfo.nome
+                    }</div>
                     <div class="text-sm font-normal text-stone-600">Concurso ${String(
                       data.numero
                     ).padStart(4, "0")} - ${data.dataApuracao}</div>
                 `;
 
     modalDezenas.innerHTML = "";
+    modalDezenasSegundoSorteio.innerHTML = "";
+    modalTimemaniaContainer.innerHTML = "";
     const dezenasColor = gameInfo.style;
-    data.listaDezenas.forEach((dezena) => {
-      const ball = document.createElement("div");
-      ball.className = `w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg ${dezenasColor}`;
-      ball.textContent = String(dezena).padStart(2, "0");
-      modalDezenas.appendChild(ball);
+    if (data.tipoJogo === "DUPLA_SENA") {
+      const pSorteio = document.createElement("div");
+      pSorteio.className = `font-semibold text-sm text-stone-700/80 -mb-2 text-center basis-full`;
+      pSorteio.textContent = "Sorteio 1";
+      modalDezenas.appendChild(pSorteio);
+      const pSorteio2 = document.createElement("div");
+      pSorteio2.className = `font-semibold text-sm text-stone-700/80 -mb-2 mt-2 text-center basis-full`;
+      pSorteio2.textContent = "Sorteio 2";
+      modalDezenasSegundoSorteio.appendChild(pSorteio2);
+
+      data.listaDezenasSegundoSorteio.forEach((dezena) => {
+        const ball = document.createElement("div");
+        ball.className = `w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg ${dezenasColor}`;
+        ball.textContent = String(dezena).padStart(2, "0");
+        modalDezenasSegundoSorteio.appendChild(ball);
+      });
+    }
+
+    if (data.tipoJogo === "SUPER_SETE") {
+      const colunas = document.createElement("div");
+      colunas.className = `font-semibold text-sm text-stone-700/80 -mb-2 text-center basis-full`;
+      colunas.textContent = "Colunas";
+      modalDezenas.appendChild(colunas);
+    }
+
+    if(data.tipoJogo === "MAIS_MILIONARIA"){
+      const trevo = document.createElement("div");
+      trevo.className = `font-semibold text-stone-700 -mb-1 mt-2 text-center basis-full`;
+      trevo.textContent = "Trevos Sorteados";
+      modalDezenasSegundoSorteio.appendChild(trevo);
+
+      data.trevosSorteados.forEach((dezena) => {
+        const ball = document.createElement("div");
+        ball.className = `w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg ${dezenasColor}`;
+        ball.textContent = String(dezena).padStart(2, "0");
+        modalDezenasSegundoSorteio.appendChild(ball);
+      });
+    }
+
+    data.listaDezenas.forEach((dezena, index) => {
+      if (data.tipoJogo === "SUPER_SETE") {
+        const columnContainer = document.createElement("div");
+        columnContainer.className = "flex flex-col items-center gap-1";
+
+        const columnNumber = document.createElement("div");
+        columnNumber.className = "text-s font-semibold text-stone-600";
+        columnNumber.textContent = `${index + 1}`;
+
+        const ball = document.createElement("div");
+        ball.className = `w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg ${dezenasColor}`;
+        ball.textContent = String(dezena).padStart(2, "0");
+
+        columnContainer.appendChild(columnNumber);
+        columnContainer.appendChild(ball);
+
+        modalDezenas.appendChild(columnContainer);
+      } else {
+        const ball = document.createElement("div");
+        ball.className = `w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg ${dezenasColor}`;
+        ball.textContent = String(dezena).padStart(2, "0");
+        modalDezenas.appendChild(ball);
+      }
     });
 
-    if (data.nomeTimeCoracaoMesSorte) {
+    if (data.tipoJogo === "TIMEMANIA") {
       modalTimemaniaContainer.innerHTML = `
                         <h4 class="font-semibold text-stone-700 mb-1 text-center">Time do Coração</h4>
                         <h4 class="font-semibold text-yellow-400 text-2xl mb-1">${data.nomeTimeCoracaoMesSorte}</h4>
+                    `;
+      modalTimemaniaContainer.classList.remove("hidden");
+    }
+
+    if (data.tipoJogo === "DIA_DE_SORTE") {
+      modalTimemaniaContainer.innerHTML = `
+                        <h4 class="font-semibold text-stone-700 mb-1 text-center">Mês da Sorte</h4>
+                        <h4 class="font-semibold text-amber-400 text-2xl mb-1">${data.nomeTimeCoracaoMesSorte}</h4>
                     `;
       modalTimemaniaContainer.classList.remove("hidden");
     }
@@ -324,7 +401,17 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   let concursos = {};
-  const tiposDeJogo = ["megasena", "lotofacil", "quina", "lotomania", "timemania"];
+  const tiposDeJogo = [
+    "megasena",
+    "lotofacil",
+    "quina",
+    "lotomania",
+    "timemania",
+    "duplasena",
+    "diadesorte",
+    "supersete",
+    "maismilionaria",
+  ];
   async function buscarDadosJson(numeroConcurso) {
     if (!concursos[currentGame]) concursos[currentGame] = {};
     if (!tiposDeJogo.includes(currentGame)) {
@@ -462,7 +549,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
 
-      if (data && !data.error && !data.aborted && data.year === currentYear && !signal.aborted) {
+      if (
+        data &&
+        !data.error &&
+        !data.aborted &&
+        data.year === currentYear &&
+        !signal.aborted
+      ) {
         renderResultCard(drawListContainer, data, currentGame);
         if (!data.acumulado) {
           const mainPrizeTier =
@@ -563,54 +656,35 @@ document.addEventListener("DOMContentLoaded", function () {
     return tiposJogos.find((c) => c.id === currentGame);
   }
 
-  gameTabMs.addEventListener("click", () => {
-    currentGame = "megasena";
-    currentYear = new Date().getFullYear();
-    /*gameTabMs.classList.add("active");
-    gameTabLf.classList.remove("active");
-    gameTabQn.classList.remove("active");*/
-    setupYearSelector();
-    loadYearData();
-  });
+  const gameMapping = {
+    "game-tab-ms": "megasena",
+    "game-tab-lf": "lotofacil",
+    "game-tab-qn": "quina",
+    "game-tab-lm": "lotomania",
+    "game-tab-tm": "timemania",
+    "game-tab-ds": "duplasena",
+    "game-tab-sd": "diadesorte",
+    "game-tab-ss": "supersete",
+    "game-tab-mm": "maismilionaria",
+  };
 
-  gameTabLf.addEventListener("click", () => {
-    currentGame = "lotofacil";
-    currentYear = new Date().getFullYear();
-    /*gameTabLf.classList.add("active");
-    gameTabMs.classList.remove("active");
-    gameTabQn.classList.remove("active");*/
-    setupYearSelector();
-    loadYearData();
-  });
+  document.querySelectorAll(".tab-button").forEach((button) => {
+    button.addEventListener("click", () => {
+      const gameType = gameMapping[button.id];
+      if (gameType) {
+        currentGame = gameType;
+        currentYear = new Date().getFullYear();
 
-  gameTabQn.addEventListener("click", () => {
-    currentGame = "quina";
-    currentYear = new Date().getFullYear();
-    /*/gameTabQn.classList.add("active");
-    gameTabMs.classList.remove("active");
-    gameTabLf.classList.remove("active");*/
-    setupYearSelector();
-    loadYearData();
-  });
+        document.querySelectorAll(".tab-button").forEach((btn) => {
+          btn.removeAttribute("data-selected");
+        });
 
-  gameTabLm.addEventListener("click", () => {
-    currentGame = "lotomania";
-    currentYear = new Date().getFullYear();
-    /*/gameTabQn.classList.add("active");
-    gameTabMs.classList.remove("active");
-    gameTabLf.classList.remove("active");*/
-    setupYearSelector();
-    loadYearData();
-  });
+        button.setAttribute("data-selected", "true");
 
-  gameTabTm.addEventListener("click", () => {
-    currentGame = "timemania";
-    currentYear = new Date().getFullYear();
-    /*/gameTabQn.classList.add("active");
-    gameTabMs.classList.remove("active");
-    gameTabLf.classList.remove("active");*/
-    setupYearSelector();
-    loadYearData();
+        setupYearSelector();
+        loadYearData();
+      }
+    });
   });
 
   contestSearchButton.addEventListener("click", handleContestSearch);
@@ -623,7 +697,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (e.target === modal) hideModal();
   });
 
-  // Initial Load
   setupYearSelector();
   loadYearData();
 });
