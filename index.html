@@ -38,30 +38,49 @@
                     </div>
                     <div>
                         <h2 class="text-2xl font-bold text-amber-900 mb-2">Loterias</h2>
-                        <div class="flex">
-                            <div class="flex gap-1 rounded-full bg-gray-950/5 p-1" role="tablist"
-                                aria-orientation="horizontal">
-                                <button type="button" id="game-tab-ms"
-                                    class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500"
-                                    data-selected="true">
-                                    Mega-Sena
-                                </button>
-                                <button type="button" id="game-tab-lf"
-                                    class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
-                                    Lotofácil
-                                </button>
-                                <button type="button" id="game-tab-qn"
-                                    class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
-                                    Quina
-                                </button>
-                                <button type="button" id="game-tab-lm"
-                                    class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
-                                    Lotomania
-                                </button>
-                                <button type="button" id="game-tab-tm"
-                                    class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
-                                    Timemania
-                                </button>
+                        <div class="flex flex-col items-start gap-2">
+                            <div class="grid grid-cols-1 gap-2 justify-items-center">
+                                <div class="flex gap-1 rounded-full bg-gray-950/5 p-1" role="tablist">
+                                    <button type="button" id="game-tab-ms"
+                                        class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500"
+                                        data-selected="true">
+                                        Mega-Sena
+                                    </button>
+                                    <button type="button" id="game-tab-lf"
+                                        class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
+                                        Lotofácil
+                                    </button>
+                                    <button type="button" id="game-tab-qn"
+                                        class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
+                                        Quina
+                                    </button>
+                                    <button type="button" id="game-tab-lm"
+                                        class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
+                                        Lotomania
+                                    </button>
+                                    <button type="button" id="game-tab-tm"
+                                        class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
+                                        Timemania
+                                    </button>
+                                </div>
+                                <div class="flex gap-1 rounded-full bg-gray-950/5 p-1" role="tablist">
+                                    <button type="button" id="game-tab-ds"
+                                        class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
+                                        Dupla Sena
+                                    </button>
+                                    <button type="button" id="game-tab-sd"
+                                        class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
+                                        Dia de Sorte
+                                    </button>
+                                    <button type="button" id="game-tab-ss"
+                                        class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
+                                        Super Sete
+                                    </button>
+                                    <button type="button" id="game-tab-mm"
+                                        class="tab-button group flex items-center rounded-full px-4 py-1.5 text-sm font-medium transition-colors hover:bg-amber-600/5 data-[selected]:bg-amber-500 data-[selected]:text-white data-[selected]:ring data-[selected]:ring-gray-950/5 data-[selected]:hover:bg-amber-500">
+                                        +Milionária
+                                    </button>
+                                </div>
                             </div>
                         </div>
 
@@ -119,6 +138,8 @@
                 <div class="mb-6">
                     <h4 class="font-semibold text-stone-700 mb-3 text-center">Números Sorteados</h4>
                     <div id="modal-dezenas" class="flex flex-wrap justify-center gap-2">
+                    </div>
+                    <div id="modal-dezenas-segundo-sorteio" class="flex flex-wrap justify-center gap-2">
                     </div>
                 </div>
 
