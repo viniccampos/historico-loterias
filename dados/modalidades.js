@@ -1,4 +1,4 @@
-[
+window.MODALIDADES_DATA = [
   { "id": "megasena", "nome": "Mega-Sena", "anoinicio": 1996, "style": "bg-green-100 text-green-800" },
   { "id": "lotofacil", "nome": "Lotofácil", "anoinicio": 2003, "style": "bg-purple-100 text-purple-800"  },
   { "id": "quina", "nome": "Quina", "anoinicio": 1994, "style": "bg-blue-100 text-blue-800"  },

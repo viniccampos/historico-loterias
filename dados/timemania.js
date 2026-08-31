@@ -1,4 +1,6 @@
-{
+window.LOTTERY_DATA = window.LOTTERY_DATA || {};
+
+window.LOTTERY_DATA.timemania = {
   "2008": [
     {
       "acumulado": true,
@@ -198142,6 +198144,13930 @@
       "valorSaldoReservaGarantidora": 0,
       "valorTotalPremioFaixaUm": 0,
       "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "07/08/2025",
+      "dataProximoConcurso": "09/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "44",
+        "34",
+        "17",
+        "36",
+        "14",
+        "38",
+        "53"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "14",
+        "17",
+        "34",
+        "36",
+        "38",
+        "44",
+        "53"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 63733.52
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 224,
+          "valorPremio": 1219.39
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3686,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 32984,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 9565,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ALTOS            /PI",
+      "numero": 2278,
+      "numeroConcursoAnterior": 2277,
+      "numeroConcursoFinal_0_5": 2280,
+      "numeroConcursoProximo": 2279,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3202335.5,
+      "valorAcumuladoConcurso_0_5": 322095.53,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 13568313.16,
+      "valorEstimadoProximoConcurso": 14200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "09/08/2025",
+      "dataProximoConcurso": "12/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "62",
+        "64",
+        "43",
+        "56",
+        "03",
+        "09",
+        "05"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "05",
+        "09",
+        "43",
+        "56",
+        "62",
+        "64"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 8,
+          "valorPremio": 22891.92
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 144,
+          "valorPremio": 1816.81
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3297,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 32173,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 7428,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "MIRASSOL         /SP",
+      "numero": 2279,
+      "numeroConcursoAnterior": 2278,
+      "numeroConcursoFinal_0_5": 2280,
+      "numeroConcursoProximo": 2280,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3036943,
+      "valorAcumuladoConcurso_0_5": 14439814.67,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 14439814.67,
+      "valorEstimadoProximoConcurso": 15000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "12/08/2025",
+      "dataProximoConcurso": "14/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "18",
+        "75",
+        "24",
+        "27",
+        "43",
+        "21",
+        "03"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "18",
+        "21",
+        "24",
+        "27",
+        "43",
+        "75"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 35237.8
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 185,
+          "valorPremio": 1360.53
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3540,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 31572,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 7600,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CAXIAS           /RS",
+      "numero": 2280,
+      "numeroConcursoAnterior": 2279,
+      "numeroConcursoFinal_0_5": 2285,
+      "numeroConcursoProximo": 2281,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2941529.5,
+      "valorAcumuladoConcurso_0_5": 88094.5,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 14880287.13,
+      "valorEstimadoProximoConcurso": 15500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "14/08/2025",
+      "dataProximoConcurso": "16/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "11",
+        "34",
+        "75",
+        "10",
+        "65",
+        "24",
+        "57"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "10",
+        "11",
+        "24",
+        "34",
+        "57",
+        "65",
+        "75"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 35253.4
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 137,
+          "valorPremio": 1838.02
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3029,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 29431,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 7806,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "FLORESTA         /CE",
+      "numero": 2281,
+      "numeroConcursoAnterior": 2280,
+      "numeroConcursoFinal_0_5": 2285,
+      "numeroConcursoProximo": 2282,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2920428,
+      "valorAcumuladoConcurso_0_5": 176228,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 15320954.63,
+      "valorEstimadoProximoConcurso": 16000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "16/08/2025",
+      "dataProximoConcurso": "19/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "79",
+        "01",
+        "25",
+        "57",
+        "76",
+        "26",
+        "48"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "25",
+        "26",
+        "48",
+        "57",
+        "76",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 89240.62
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 125,
+          "valorPremio": 2039.78
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2809,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 28571,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 12781,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "GOIAS            /GO",
+      "numero": 2282,
+      "numeroConcursoAnterior": 2281,
+      "numeroConcursoFinal_0_5": 2285,
+      "numeroConcursoProximo": 2283,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3025995,
+      "valorAcumuladoConcurso_0_5": 265468.62,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 15767157.73,
+      "valorEstimadoProximoConcurso": 16500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "19/08/2025",
+      "dataProximoConcurso": "21/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "61",
+        "41",
+        "18",
+        "55",
+        "15",
+        "46",
+        "53"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "15",
+        "18",
+        "41",
+        "46",
+        "53",
+        "55",
+        "61"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 85293.69
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 114,
+          "valorPremio": 2137.68
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2661,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 27018,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 11312,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ABC              /RN",
+      "numero": 2283,
+      "numeroConcursoAnterior": 2282,
+      "numeroConcursoFinal_0_5": 2285,
+      "numeroConcursoProximo": 2284,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2874273.5,
+      "valorAcumuladoConcurso_0_5": 350762.31,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 16193626.17,
+      "valorEstimadoProximoConcurso": 16800000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "21/08/2025",
+      "dataProximoConcurso": "23/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "25",
+        "24",
+        "22",
+        "33",
+        "73",
+        "07",
+        "70"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "07",
+        "22",
+        "24",
+        "25",
+        "33",
+        "70",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 11,
+          "valorPremio": 16771.75
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 208,
+          "valorPremio": 1267.09
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3838,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 36458,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 22325,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "ATLETICO         /MG",
+      "numero": 2284,
+      "numeroConcursoAnterior": 2283,
+      "numeroConcursoFinal_0_5": 2285,
+      "numeroConcursoProximo": 2285,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3350889.5,
+      "valorAcumuladoConcurso_0_5": 17097856.18,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 17097856.18,
+      "valorEstimadoProximoConcurso": 18000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "23/08/2025",
+      "dataProximoConcurso": "26/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "45",
+        "68",
+        "39",
+        "69",
+        "77",
+        "65",
+        "48"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "39",
+        "45",
+        "48",
+        "65",
+        "68",
+        "69",
+        "77"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 8,
+          "valorPremio": 24461.5
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 153,
+          "valorPremio": 1827.18
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3200,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 30123,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6503,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "MANAUS           /AM",
+      "numero": 2285,
+      "numeroConcursoAnterior": 2284,
+      "numeroConcursoFinal_0_5": 2290,
+      "numeroConcursoProximo": 2286,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3184212.5,
+      "valorAcumuladoConcurso_0_5": 97846.03,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 17587086.26,
+      "valorEstimadoProximoConcurso": 18200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "26/08/2025",
+      "dataProximoConcurso": "28/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "18",
+        "53",
+        "39",
+        "74",
+        "25",
+        "14",
+        "58"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "14",
+        "18",
+        "25",
+        "39",
+        "53",
+        "58",
+        "74"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 92071.51
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 185,
+          "valorPremio": 1421.95
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3249,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 30325,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 7631,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BAHIA DE FEIRA   /BA",
+      "numero": 2286,
+      "numeroConcursoAnterior": 2285,
+      "numeroConcursoFinal_0_5": 2290,
+      "numeroConcursoProximo": 2287,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3040845.5,
+      "valorAcumuladoConcurso_0_5": 189917.54,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 18047443.8,
+      "valorEstimadoProximoConcurso": 18500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "28/08/2025",
+      "dataProximoConcurso": "30/08/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "63",
+        "49",
+        "45",
+        "57",
+        "24",
+        "15",
+        "42"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "15",
+        "24",
+        "42",
+        "45",
+        "49",
+        "57",
+        "63"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 8,
+          "valorPremio": 31378.16
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 264,
+          "valorPremio": 1358.36
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4673,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 42576,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10688,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "OPERARIO         /PR",
+      "numero": 2287,
+      "numeroConcursoAnterior": 2286,
+      "numeroConcursoFinal_0_5": 2290,
+      "numeroConcursoProximo": 2288,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4163936,
+      "valorAcumuladoConcurso_0_5": 315430.16,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 18675006.92,
+      "valorEstimadoProximoConcurso": 19500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "30/08/2025",
+      "dataProximoConcurso": "02/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "20",
+        "32",
+        "59",
+        "02",
+        "34",
+        "17",
+        "05"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "05",
+        "17",
+        "20",
+        "32",
+        "34",
+        "59"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 77508.66
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 242,
+          "valorPremio": 1372.64
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4874,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 44485,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 24903,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "FLUMINENSE       /RJ",
+      "numero": 2288,
+      "numeroConcursoAnterior": 2287,
+      "numeroConcursoFinal_0_5": 2290,
+      "numeroConcursoProximo": 2289,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4158899.5,
+      "valorAcumuladoConcurso_0_5": 431693.15,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 19256321.83,
+      "valorEstimadoProximoConcurso": 20000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "02/09/2025",
+      "dataProximoConcurso": "04/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "47",
+        "14",
+        "52",
+        "21",
+        "10",
+        "18",
+        "61"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "10",
+        "14",
+        "18",
+        "21",
+        "47",
+        "52",
+        "61"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 79623.42
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 212,
+          "valorPremio": 1609.63
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4116,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 39115,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10014,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "MIRASSOL         /SP",
+      "numero": 2289,
+      "numeroConcursoAnterior": 2288,
+      "numeroConcursoFinal_0_5": 2290,
+      "numeroConcursoProximo": 2290,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3942911,
+      "valorAcumuladoConcurso_0_5": 20404625.69,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 20404625.69,
+      "valorEstimadoProximoConcurso": 21000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "04/09/2025",
+      "dataProximoConcurso": "06/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "74",
+        "56",
+        "49",
+        "53",
+        "10",
+        "54",
+        "66"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "10",
+        "49",
+        "53",
+        "54",
+        "56",
+        "66",
+        "74"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 242531.59
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 187,
+          "valorPremio": 1852.8
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3875,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 37358,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10002,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "NOVORIZONTINO    /SP",
+      "numero": 2290,
+      "numeroConcursoAnterior": 2289,
+      "numeroConcursoFinal_0_5": 2295,
+      "numeroConcursoProximo": 2291,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3977652,
+      "valorAcumuladoConcurso_0_5": 121265.8,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 21010954.67,
+      "valorEstimadoProximoConcurso": 22000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "06/09/2025",
+      "dataProximoConcurso": "09/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "08",
+        "45",
+        "51",
+        "56",
+        "64",
+        "14",
+        "32"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "08",
+        "14",
+        "32",
+        "45",
+        "51",
+        "56",
+        "64"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 12,
+          "valorPremio": 18261.6
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 226,
+          "valorPremio": 1385.2
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3614,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 34968,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 8614,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "YPIRANGA         /RS",
+      "numero": 2291,
+      "numeroConcursoAnterior": 2290,
+      "numeroConcursoFinal_0_5": 2295,
+      "numeroConcursoProximo": 2292,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3597667.5,
+      "valorAcumuladoConcurso_0_5": 230835.39,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 21558802.58,
+      "valorEstimadoProximoConcurso": 22500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "09/09/2025",
+      "dataProximoConcurso": "11/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "32",
+        "66",
+        "07",
+        "54",
+        "14",
+        "28",
+        "67"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "07",
+        "14",
+        "28",
+        "32",
+        "54",
+        "66",
+        "67"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 51407.88
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 236,
+          "valorPremio": 1555.92
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4328,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 42439,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10649,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "MIRASSOL         /SP",
+      "numero": 2292,
+      "numeroConcursoAnterior": 2291,
+      "numeroConcursoFinal_0_5": 2295,
+      "numeroConcursoProximo": 2293,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4240985,
+      "valorAcumuladoConcurso_0_5": 359355.07,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 22201401,
+      "valorEstimadoProximoConcurso": 23000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "11/09/2025",
+      "dataProximoConcurso": "13/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "49",
+        "78",
+        "71",
+        "21",
+        "18",
+        "11",
+        "38"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "11",
+        "18",
+        "21",
+        "38",
+        "49",
+        "71",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 9,
+          "valorPremio": 25272.87
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 196,
+          "valorPremio": 1657.84
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3821,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 38356,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 23933,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "GREMIO           /RS",
+      "numero": 2293,
+      "numeroConcursoAnterior": 2292,
+      "numeroConcursoFinal_0_5": 2295,
+      "numeroConcursoProximo": 2294,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4004962.5,
+      "valorAcumuladoConcurso_0_5": 473082.97,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 22770040.49,
+      "valorEstimadoProximoConcurso": 23500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "13/09/2025",
+      "dataProximoConcurso": "16/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "65",
+        "05",
+        "78",
+        "28",
+        "68",
+        "45",
+        "22"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "22",
+        "28",
+        "45",
+        "65",
+        "68",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 55608.82
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 249,
+          "valorPremio": 1595.2
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4656,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 45467,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 14972,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,    SP",
+      "nomeTimeCoracaoMesSorte": "CRICIUMA         /SC",
+      "numero": 2294,
+      "numeroConcursoAnterior": 2293,
+      "numeroConcursoFinal_0_5": 2295,
+      "numeroConcursoProximo": 2295,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4642627.5,
+      "valorAcumuladoConcurso_0_5": 24077255.74,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 24077255.74,
+      "valorEstimadoProximoConcurso": 25000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "16/09/2025",
+      "dataProximoConcurso": "18/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "20",
+        "74",
+        "47",
+        "01",
+        "27",
+        "32",
+        "77"
+      ],
+      "exibirDetalhamentoPorCidade": true,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "20",
+        "27",
+        "32",
+        "47",
+        "74",
+        "77"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 42080.07
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 210,
+          "valorPremio": 1717.55
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3968,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 39535,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 9263,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SAO BERNARDO     /SP",
+      "numero": 2295,
+      "numeroConcursoAnterior": 2294,
+      "numeroConcursoFinal_0_5": 2300,
+      "numeroConcursoProximo": 2296,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4124407,
+      "valorAcumuladoConcurso_0_5": 126240.21,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 24708456.76,
+      "valorEstimadoProximoConcurso": 25500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "18/09/2025",
+      "dataProximoConcurso": "20/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "25",
+        "32",
+        "16",
+        "35",
+        "71",
+        "30",
+        "60"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "16",
+        "25",
+        "30",
+        "32",
+        "35",
+        "60",
+        "71"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 78741.32
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 194,
+          "valorPremio": 1739.49
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3732,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 36436,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 16985,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "GOIAS            /GO",
+      "numero": 2296,
+      "numeroConcursoAnterior": 2295,
+      "numeroConcursoFinal_0_5": 2300,
+      "numeroConcursoProximo": 2297,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3996797,
+      "valorAcumuladoConcurso_0_5": 244352.19,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 25299016.66,
+      "valorEstimadoProximoConcurso": 26000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "20/09/2025",
+      "dataProximoConcurso": "23/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "14",
+        "61",
+        "34",
+        "26",
+        "47",
+        "51",
+        "05"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "14",
+        "26",
+        "34",
+        "47",
+        "51",
+        "61"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 41701.78
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 221,
+          "valorPremio": 1617.39
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4107,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 40099,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 14749,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ATLETICO         /GO",
+      "numero": 2297,
+      "numeroConcursoAnterior": 2296,
+      "numeroConcursoFinal_0_5": 2300,
+      "numeroConcursoProximo": 2298,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4192111,
+      "valorAcumuladoConcurso_0_5": 369457.52,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 25924543.31,
+      "valorEstimadoProximoConcurso": 27000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "23/09/2025",
+      "dataProximoConcurso": "25/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "75",
+        "04",
+        "48",
+        "66",
+        "39",
+        "05",
+        "27"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "05",
+        "27",
+        "39",
+        "48",
+        "66",
+        "75"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 48596.14
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 230,
+          "valorPremio": 1509.19
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4264,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 40415,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10618,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "FERROVIARIO      /CE",
+      "numero": 2298,
+      "numeroConcursoAnterior": 2297,
+      "numeroConcursoFinal_0_5": 2300,
+      "numeroConcursoProximo": 2299,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4024107.5,
+      "valorAcumuladoConcurso_0_5": 490947.86,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 26531995,
+      "valorEstimadoProximoConcurso": 27500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "25/09/2025",
+      "dataProximoConcurso": "27/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "42",
+        "46",
+        "24",
+        "19",
+        "77",
+        "54",
+        "28"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "19",
+        "24",
+        "28",
+        "42",
+        "46",
+        "54",
+        "77"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 38303.56
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 289,
+          "valorPremio": 1136.04
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4667,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 41566,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10992,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "AMAZONAS         /AM",
+      "numero": 2299,
+      "numeroConcursoAnterior": 2298,
+      "numeroConcursoFinal_0_5": 2300,
+      "numeroConcursoProximo": 2300,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3858995,
+      "valorAcumuladoConcurso_0_5": 27712406.87,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 27712406.87,
+      "valorEstimadoProximoConcurso": 29000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "27/09/2025",
+      "dataProximoConcurso": "30/09/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "70",
+        "78",
+        "49",
+        "63",
+        "71",
+        "12",
+        "03"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "12",
+        "49",
+        "63",
+        "70",
+        "71",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 41282.92
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 191,
+          "valorPremio": 1852.63
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4050,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 38235,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10453,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SAO JOSE         /RS",
+      "numero": 2300,
+      "numeroConcursoAnterior": 2299,
+      "numeroConcursoFinal_0_5": 2305,
+      "numeroConcursoProximo": 2301,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4068932,
+      "valorAcumuladoConcurso_0_5": 123848.76,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 28331650.67,
+      "valorEstimadoProximoConcurso": 29200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "30/09/2025",
+      "dataProximoConcurso": "02/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "16",
+        "58",
+        "21",
+        "44",
+        "60",
+        "30",
+        "41"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "16",
+        "21",
+        "30",
+        "41",
+        "44",
+        "58",
+        "60"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 67620.08
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 237,
+          "valorPremio": 1630.38
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4327,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 40821,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10614,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CASCAVEL         /PR",
+      "numero": 2301,
+      "numeroConcursoAnterior": 2300,
+      "numeroConcursoFinal_0_5": 2305,
+      "numeroConcursoProximo": 2302,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4421056.5,
+      "valorAcumuladoConcurso_0_5": 259088.93,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 29007851.46,
+      "valorEstimadoProximoConcurso": 29600000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "02/10/2025",
+      "dataProximoConcurso": "04/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "77",
+        "16",
+        "22",
+        "31",
+        "11",
+        "30",
+        "46"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "11",
+        "16",
+        "22",
+        "30",
+        "31",
+        "46",
+        "77"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 94870.66
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 242,
+          "valorPremio": 1680.11
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4513,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 45128,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 11939,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BRASILIENSE      /DF",
+      "numero": 2302,
+      "numeroConcursoAnterior": 2301,
+      "numeroConcursoFinal_0_5": 2305,
+      "numeroConcursoProximo": 2303,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4679517.5,
+      "valorAcumuladoConcurso_0_5": 401394.92,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 29719381.42,
+      "valorEstimadoProximoConcurso": 30500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "04/10/2025",
+      "dataProximoConcurso": "07/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "46",
+        "42",
+        "48",
+        "45",
+        "55",
+        "20",
+        "75"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "20",
+        "42",
+        "45",
+        "46",
+        "48",
+        "55",
+        "75"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 79223.76
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 229,
+          "valorPremio": 1976.88
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4835,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 48658,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 14106,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CHAPECOENSE      /SC",
+      "numero": 2303,
+      "numeroConcursoAnterior": 2302,
+      "numeroConcursoFinal_0_5": 2305,
+      "numeroConcursoProximo": 2304,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 5209015,
+      "valorAcumuladoConcurso_0_5": 559842.44,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 30511619.02,
+      "valorEstimadoProximoConcurso": 32000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "07/10/2025",
+      "dataProximoConcurso": "09/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "62",
+        "31",
+        "53",
+        "51",
+        "74",
+        "22",
+        "09"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "09",
+        "22",
+        "31",
+        "51",
+        "53",
+        "62",
+        "74"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 8,
+          "valorPremio": 37100.55
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 245,
+          "valorPremio": 1730.63
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4505,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 45643,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 13241,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BRUSQUE          /SC",
+      "numero": 2304,
+      "numeroConcursoAnterior": 2303,
+      "numeroConcursoFinal_0_5": 2305,
+      "numeroConcursoProximo": 2305,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4879266,
+      "valorAcumuladoConcurso_0_5": 708244.65,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 31961874.68,
+      "valorEstimadoProximoConcurso": 33000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "09/10/2025",
+      "dataProximoConcurso": "11/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "18",
+        "76",
+        "48",
+        "80",
+        "60",
+        "62",
+        "36"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "18",
+        "36",
+        "48",
+        "60",
+        "62",
+        "76",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 7,
+          "valorPremio": 40917.94
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 232,
+          "valorPremio": 1763.7
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4323,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 44235,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 14861,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "APARECIDENSE     /GO",
+      "numero": 2305,
+      "numeroConcursoAnterior": 2304,
+      "numeroConcursoFinal_0_5": 2310,
+      "numeroConcursoProximo": 2306,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4744859,
+      "valorAcumuladoConcurso_0_5": 143212.79,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 32677938.63,
+      "valorEstimadoProximoConcurso": 33500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "11/10/2025",
+      "dataProximoConcurso": "14/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "11",
+        "17",
+        "72",
+        "76",
+        "51",
+        "71",
+        "69"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "11",
+        "17",
+        "51",
+        "69",
+        "71",
+        "72",
+        "76"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 9,
+          "valorPremio": 29774.97
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 225,
+          "valorPremio": 1701.42
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4706,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 45951,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 32958,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SAO PAULO        /SP",
+      "numero": 2306,
+      "numeroConcursoAnterior": 2305,
+      "numeroConcursoFinal_0_5": 2310,
+      "numeroConcursoProximo": 2307,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4808979,
+      "valorAcumuladoConcurso_0_5": 277200.14,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 33347875.38,
+      "valorEstimadoProximoConcurso": 34000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "14/10/2025",
+      "dataProximoConcurso": "16/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "44",
+        "38",
+        "52",
+        "64",
+        "02",
+        "13",
+        "80"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "13",
+        "38",
+        "44",
+        "52",
+        "64",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 7,
+          "valorPremio": 45979.04
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 299,
+          "valorPremio": 1537.76
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 5854,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 55758,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 22482,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CORITIBA         /PR",
+      "numero": 2307,
+      "numeroConcursoAnterior": 2306,
+      "numeroConcursoFinal_0_5": 2310,
+      "numeroConcursoProximo": 2308,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 5493337.5,
+      "valorAcumuladoConcurso_0_5": 438126.77,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 34152508.49,
+      "valorEstimadoProximoConcurso": 35500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "16/10/2025",
+      "dataProximoConcurso": "18/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "23",
+        "08",
+        "07",
+        "39",
+        "73",
+        "62",
+        "04"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "07",
+        "08",
+        "23",
+        "39",
+        "62",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 13,
+          "valorPremio": 24708.29
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 320,
+          "valorPremio": 1433.96
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 6120,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 58087,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 21588,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ABC              /RN",
+      "numero": 2308,
+      "numeroConcursoAnterior": 2307,
+      "numeroConcursoFinal_0_5": 2310,
+      "numeroConcursoProximo": 2309,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 5490807,
+      "valorAcumuladoConcurso_0_5": 598730.64,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 34955527.84,
+      "valorEstimadoProximoConcurso": 36000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "18/10/2025",
+      "dataProximoConcurso": "21/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "45",
+        "39",
+        "03",
+        "22",
+        "77",
+        "21",
+        "02"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "03",
+        "21",
+        "22",
+        "39",
+        "45",
+        "77"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 55203.43
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 297,
+          "valorPremio": 1593.17
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 5661,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 56203,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 15453,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "LONDRINA         /PR",
+      "numero": 2309,
+      "numeroConcursoAnterior": 2308,
+      "numeroConcursoFinal_0_5": 2310,
+      "numeroConcursoProximo": 2310,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 5506725,
+      "valorAcumuladoConcurso_0_5": 36547920.1,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 36547920.1,
+      "valorEstimadoProximoConcurso": 37500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "21/10/2025",
+      "dataProximoConcurso": "23/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "55",
+        "66",
+        "17",
+        "47",
+        "62",
+        "44",
+        "02"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "17",
+        "44",
+        "47",
+        "55",
+        "62",
+        "66"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 73740.07
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 271,
+          "valorPremio": 1554.87
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 5238,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 48434,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 13905,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "VILA NOVA        /GO",
+      "numero": 2310,
+      "numeroConcursoAnterior": 2309,
+      "numeroConcursoFinal_0_5": 2315,
+      "numeroConcursoProximo": 2311,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4899139,
+      "valorAcumuladoConcurso_0_5": 147480.13,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 37285320.75,
+      "valorEstimadoProximoConcurso": 38000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "23/10/2025",
+      "dataProximoConcurso": "25/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "71",
+        "68",
+        "32",
+        "72",
+        "37",
+        "17",
+        "34"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "17",
+        "32",
+        "34",
+        "37",
+        "68",
+        "71",
+        "72"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 56590.06
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 235,
+          "valorPremio": 1720.06
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4673,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 44816,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 12874,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "NAUTICO          /PE",
+      "numero": 2311,
+      "numeroConcursoAnterior": 2310,
+      "numeroConcursoFinal_0_5": 2315,
+      "numeroConcursoProximo": 2312,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4672850,
+      "valorAcumuladoConcurso_0_5": 288955.28,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 37992696.47,
+      "valorEstimadoProximoConcurso": 39000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "25/10/2025",
+      "dataProximoConcurso": "28/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "59",
+        "65",
+        "06",
+        "10",
+        "05",
+        "74",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "06",
+        "10",
+        "21",
+        "59",
+        "65",
+        "74"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 61962.49
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 304,
+          "valorPremio": 1455.88
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 5750,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 53857,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 13024,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BRASIL DE PELOTAS/RS",
+      "numero": 2312,
+      "numeroConcursoAnterior": 2311,
+      "numeroConcursoFinal_0_5": 2315,
+      "numeroConcursoProximo": 2313,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 5145049,
+      "valorAcumuladoConcurso_0_5": 443861.5,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 38767227.57,
+      "valorEstimadoProximoConcurso": 40000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "28/10/2025",
+      "dataProximoConcurso": "30/10/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "33",
+        "70",
+        "68",
+        "32",
+        "03",
+        "06",
+        "02"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "03",
+        "06",
+        "32",
+        "33",
+        "68",
+        "70"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 7,
+          "valorPremio": 49750.03
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 283,
+          "valorPremio": 1757.95
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 5628,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 55679,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 21298,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CORITIBA         /PR",
+      "numero": 2313,
+      "numeroConcursoAnterior": 2312,
+      "numeroConcursoFinal_0_5": 2315,
+      "numeroConcursoProximo": 2314,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 5845010.5,
+      "valorAcumuladoConcurso_0_5": 617986.63,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 39637853.18,
+      "valorEstimadoProximoConcurso": 41000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "30/10/2025",
+      "dataProximoConcurso": "01/11/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "34",
+        "38",
+        "36",
+        "60",
+        "26",
+        "74",
+        "30"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "26",
+        "30",
+        "34",
+        "36",
+        "38",
+        "60",
+        "74"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 177703.28
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 285,
+          "valorPremio": 1781.48
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 5173,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 51696,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 16037,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "FLORESTA         /CE",
+      "numero": 2314,
+      "numeroConcursoAnterior": 2313,
+      "numeroConcursoFinal_0_5": 2315,
+      "numeroConcursoProximo": 2315,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 5820370.5,
+      "valorAcumuladoConcurso_0_5": 41322059.47,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 41322059.47,
+      "valorEstimadoProximoConcurso": 42500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "01/11/2025",
+      "dataProximoConcurso": "04/11/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "66",
+        "78",
+        "54",
+        "12",
+        "49",
+        "41",
+        "03"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "12",
+        "41",
+        "49",
+        "54",
+        "66",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 8,
+          "valorPremio": 45703.97
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 381,
+          "valorPremio": 1370.94
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 6468,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 59845,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 14921,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BRASIL DE PELOTAS/RS",
+      "numero": 2315,
+      "numeroConcursoAnterior": 2314,
+      "numeroConcursoFinal_0_5": 2320,
+      "numeroConcursoProximo": 2316,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 6031711,
+      "valorAcumuladoConcurso_0_5": 182815.89,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 42236138.89,
+      "valorEstimadoProximoConcurso": 43500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "04/11/2025",
+      "dataProximoConcurso": "06/11/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "73",
+        "58",
+        "25",
+        "24",
+        "42",
+        "28",
+        "78"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "24",
+        "25",
+        "28",
+        "42",
+        "58",
+        "73",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 91215.96
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 339,
+          "valorPremio": 1537.56
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 6264,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 60132,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 18642,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ALTOS            /PI",
+      "numero": 2316,
+      "numeroConcursoAnterior": 2315,
+      "numeroConcursoFinal_0_5": 2320,
+      "numeroConcursoProximo": 2317,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 6081722.5,
+      "valorAcumuladoConcurso_0_5": 365247.81,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 43148298.48,
+      "valorEstimadoProximoConcurso": 44000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "06/11/2025",
+      "dataProximoConcurso": "08/11/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "04",
+        "66",
+        "68",
+        "41",
+        "51",
+        "38",
+        "06"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "06",
+        "38",
+        "41",
+        "51",
+        "66",
+        "68"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 123372.59
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 262,
+          "valorPremio": 2018.09
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 5467,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 56082,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 14978,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BRASILIENSE      /DF",
+      "numero": 2317,
+      "numeroConcursoAnterior": 2316,
+      "numeroConcursoFinal_0_5": 2320,
+      "numeroConcursoProximo": 2318,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 6049403.5,
+      "valorAcumuladoConcurso_0_5": 550306.69,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 44073592.86,
+      "valorEstimadoProximoConcurso": 45000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "08/11/2025",
+      "dataProximoConcurso": "11/11/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "48",
+        "37",
+        "60",
+        "17",
+        "08",
+        "59",
+        "01"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "08",
+        "17",
+        "37",
+        "48",
+        "59",
+        "60"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 9,
+          "valorPremio": 44139.95
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 363,
+          "valorPremio": 1563.39
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 6446,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 63788,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 13750,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "TOCANTINOPOLIS   /TO",
+      "numero": 2318,
+      "numeroConcursoAnterior": 2317,
+      "numeroConcursoFinal_0_5": 2320,
+      "numeroConcursoProximo": 2319,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 6490767.5,
+      "valorAcumuladoConcurso_0_5": 748936.44,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 45066741.57,
+      "valorEstimadoProximoConcurso": 46000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "11/11/2025",
+      "dataProximoConcurso": "13/11/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "35",
+        "48",
+        "60",
+        "79",
+        "67",
+        "43",
+        "38"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "35",
+        "38",
+        "43",
+        "48",
+        "60",
+        "67",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 7,
+          "valorPremio": 51333.81
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 295,
+          "valorPremio": 1740.12
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 6001,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 56513,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 22738,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "CORITIBA         /PR",
+      "numero": 2319,
+      "numeroConcursoAnterior": 2318,
+      "numeroConcursoFinal_0_5": 2320,
+      "numeroConcursoProximo": 2320,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 6041539,
+      "valorAcumuladoConcurso_0_5": 46893688.01,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 46893688.01,
+      "valorEstimadoProximoConcurso": 48000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "13/11/2025",
+      "dataProximoConcurso": "18/11/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "23",
+        "36",
+        "66",
+        "19",
+        "47",
+        "20",
+        "65"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "19",
+        "20",
+        "23",
+        "36",
+        "47",
+        "65",
+        "66"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 164274.04
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 330,
+          "valorPremio": 1422.28
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 6047,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 58703,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 37335,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SAO PAULO        /SP",
+      "numero": 2320,
+      "numeroConcursoAnterior": 2319,
+      "numeroConcursoFinal_0_5": 2325,
+      "numeroConcursoProximo": 2321,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 5866147,
+      "valorAcumuladoConcurso_0_5": 164274.04,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 47715058.21,
+      "valorEstimadoProximoConcurso": 49000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "18/11/2025",
+      "dataProximoConcurso": "22/11/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "31",
+        "13",
+        "09",
+        "27",
+        "52",
+        "15",
+        "05"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "09",
+        "13",
+        "15",
+        "27",
+        "31",
+        "52"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 18,
+          "valorPremio": 25964.33
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 718,
+          "valorPremio": 929.88
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 11660,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 97980,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 50567,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "GREMIO           /RS",
+      "numero": 2321,
+      "numeroConcursoAnterior": 2320,
+      "numeroConcursoFinal_0_5": 2325,
+      "numeroConcursoProximo": 2322,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 8466902.5,
+      "valorAcumuladoConcurso_0_5": 397953.07,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 48883453.32,
+      "valorEstimadoProximoConcurso": 50000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "22/11/2025",
+      "dataProximoConcurso": "25/11/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "40",
+        "37",
+        "72",
+        "07",
+        "12",
+        "27",
+        "04"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "07",
+        "12",
+        "27",
+        "37",
+        "40",
+        "72"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 14,
+          "valorPremio": 40571.42
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 561,
+          "valorPremio": 1446.39
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 10553,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 99501,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 22196,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "POUSO ALEGRE     /MG",
+      "numero": 2322,
+      "numeroConcursoAnterior": 2321,
+      "numeroConcursoFinal_0_5": 2325,
+      "numeroConcursoProximo": 2323,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 9409736,
+      "valorAcumuladoConcurso_0_5": 681953.01,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 50303453.02,
+      "valorEstimadoProximoConcurso": 51500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "25/11/2025",
+      "dataProximoConcurso": "27/11/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "33",
+        "60",
+        "13",
+        "52",
+        "65",
+        "66",
+        "79"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "13",
+        "33",
+        "52",
+        "60",
+        "65",
+        "66",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 120886.16
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 500,
+          "valorPremio": 1381.55
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 8456,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 79054,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 18743,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "PORTUGUESA       /RJ",
+      "numero": 2323,
+      "numeroConcursoAnterior": 2322,
+      "numeroConcursoFinal_0_5": 2325,
+      "numeroConcursoProximo": 2324,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 7957365.5,
+      "valorAcumuladoConcurso_0_5": 923725.33,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 51512314.61,
+      "valorEstimadoProximoConcurso": 53000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "27/11/2025",
+      "dataProximoConcurso": "29/11/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "42",
+        "18",
+        "65",
+        "05",
+        "67",
+        "76",
+        "50"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "18",
+        "42",
+        "50",
+        "65",
+        "67",
+        "76"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 18,
+          "valorPremio": 26471.9
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 400,
+          "valorPremio": 1701.76
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 7603,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 73336,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 16835,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "JUAZEIRENSE      /BA",
+      "numero": 2324,
+      "numeroConcursoAnterior": 2323,
+      "numeroConcursoFinal_0_5": 2325,
+      "numeroConcursoProximo": 2325,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 7766269,
+      "valorAcumuladoConcurso_0_5": 53865522.32,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 53865522.32,
+      "valorEstimadoProximoConcurso": 55000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "29/11/2025",
+      "dataProximoConcurso": "02/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "73",
+        "42",
+        "11",
+        "40",
+        "13",
+        "66",
+        "67"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "11",
+        "13",
+        "40",
+        "42",
+        "66",
+        "67",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 85134.31
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 426,
+          "valorPremio": 1712.96
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 8034,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 79686,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 20257,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CAMPINENSE       /PB",
+      "numero": 2325,
+      "numeroConcursoAnterior": 2324,
+      "numeroConcursoFinal_0_5": 2330,
+      "numeroConcursoProximo": 2326,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 8368111.5,
+      "valorAcumuladoConcurso_0_5": 255402.94,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 55142536.96,
+      "valorEstimadoProximoConcurso": 56500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "02/12/2025",
+      "dataProximoConcurso": "04/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "71",
+        "56",
+        "43",
+        "57",
+        "26",
+        "22",
+        "52"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "22",
+        "26",
+        "43",
+        "52",
+        "56",
+        "57",
+        "71"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 13,
+          "valorPremio": 39524.9
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 472,
+          "valorPremio": 1555.15
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 9177,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 89480,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 55212,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SAO PAULO        /SP",
+      "numero": 2326,
+      "numeroConcursoAnterior": 2325,
+      "numeroConcursoFinal_0_5": 2330,
+      "numeroConcursoProximo": 2327,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 9098019,
+      "valorAcumuladoConcurso_0_5": 512314.77,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 56427096.11,
+      "valorEstimadoProximoConcurso": 58000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "04/12/2025",
+      "dataProximoConcurso": "06/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "42",
+        "46",
+        "73",
+        "35",
+        "71",
+        "07",
+        "04"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "07",
+        "35",
+        "42",
+        "46",
+        "71",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 13,
+          "valorPremio": 41755.97
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 457,
+          "valorPremio": 1696.86
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 9055,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 88387,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 32584,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ATLETICO         /GO",
+      "numero": 2327,
+      "numeroConcursoAnterior": 2326,
+      "numeroConcursoFinal_0_5": 2330,
+      "numeroConcursoProximo": 2328,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 9117472,
+      "valorAcumuladoConcurso_0_5": 783728.57,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 57784165.11,
+      "valorEstimadoProximoConcurso": 60000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "06/12/2025",
+      "dataProximoConcurso": "09/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "73",
+        "29",
+        "59",
+        "15",
+        "01",
+        "49",
+        "57"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "15",
+        "29",
+        "49",
+        "57",
+        "59",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 17,
+          "valorPremio": 37711.09
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 570,
+          "valorPremio": 1606.73
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 10438,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 100507,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 25646,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "JACUIPENSE       /BA",
+      "numero": 2328,
+      "numeroConcursoAnterior": 2327,
+      "numeroConcursoFinal_0_5": 2330,
+      "numeroConcursoProximo": 2329,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 10517136,
+      "valorAcumuladoConcurso_0_5": 1104272.81,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 59386886.33,
+      "valorEstimadoProximoConcurso": 61000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "09/12/2025",
+      "dataProximoConcurso": "11/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "75",
+        "39",
+        "77",
+        "36",
+        "29",
+        "70",
+        "61"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "29",
+        "36",
+        "39",
+        "61",
+        "70",
+        "75",
+        "77"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 13,
+          "valorPremio": 44577.11
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 488,
+          "valorPremio": 1696.43
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 9574,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 91407,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 30696,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "APARECIDENSE     /GO",
+      "numero": 2329,
+      "numeroConcursoAnterior": 2328,
+      "numeroConcursoFinal_0_5": 2330,
+      "numeroConcursoProximo": 2330,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 9641341.5,
+      "valorAcumuladoConcurso_0_5": 62229666.5,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 62229666.5,
+      "valorEstimadoProximoConcurso": 64000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "11/12/2025",
+      "dataProximoConcurso": "13/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "31",
+        "56",
+        "50",
+        "57",
+        "22",
+        "52",
+        "69"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "22",
+        "31",
+        "50",
+        "52",
+        "56",
+        "57",
+        "69"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 7,
+          "valorPremio": 79057.26
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 445,
+          "valorPremio": 1776.56
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 8935,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 85295,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 24435,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "NAUTICO          /PE",
+      "numero": 2330,
+      "numeroConcursoAnterior": 2329,
+      "numeroConcursoFinal_0_5": 2335,
+      "numeroConcursoProximo": 2331,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 9105820.5,
+      "valorAcumuladoConcurso_0_5": 276700.4,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 63613168.46,
+      "valorEstimadoProximoConcurso": 65000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "13/12/2025",
+      "dataProximoConcurso": "16/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "74",
+        "12",
+        "63",
+        "78",
+        "37",
+        "71",
+        "56"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "12",
+        "37",
+        "56",
+        "63",
+        "71",
+        "74",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 11,
+          "valorPremio": 52730.69
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 527,
+          "valorPremio": 1572.34
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 9494,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 91641,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 25469,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "NOVORIZONTINO    /SP",
+      "numero": 2331,
+      "numeroConcursoAnterior": 2330,
+      "numeroConcursoFinal_0_5": 2335,
+      "numeroConcursoProximo": 2332,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 9560085.5,
+      "valorAcumuladoConcurso_0_5": 566719.21,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 65063262.47,
+      "valorEstimadoProximoConcurso": 67000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "16/12/2025",
+      "dataProximoConcurso": "18/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "47",
+        "13",
+        "50",
+        "23",
+        "71",
+        "17",
+        "28"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "13",
+        "17",
+        "23",
+        "28",
+        "47",
+        "50",
+        "71"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 15,
+          "valorPremio": 35551.02
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 520,
+          "valorPremio": 1465.01
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 9821,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 94299,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 34361,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CORITIBA         /PR",
+      "numero": 2332,
+      "numeroConcursoAnterior": 2331,
+      "numeroConcursoFinal_0_5": 2335,
+      "numeroConcursoProximo": 2333,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 9068545.5,
+      "valorAcumuladoConcurso_0_5": 833351.82,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 66396425.51,
+      "valorEstimadoProximoConcurso": 68000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "18/12/2025",
+      "dataProximoConcurso": "20/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "51",
+        "49",
+        "58",
+        "80",
+        "61",
+        "40",
+        "52"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "40",
+        "49",
+        "51",
+        "52",
+        "58",
+        "61",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 8,
+          "valorPremio": 63699.51
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 421,
+          "valorPremio": 1729.2
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 7326,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 74344,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 24870,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BRAGANTINO       /SP",
+      "numero": 2333,
+      "numeroConcursoAnterior": 2332,
+      "numeroConcursoFinal_0_5": 2335,
+      "numeroConcursoProximo": 2334,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 8376987.5,
+      "valorAcumuladoConcurso_0_5": 1088149.84,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 67670415.61,
+      "valorEstimadoProximoConcurso": 70000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "20/12/2025",
+      "dataProximoConcurso": "23/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "27",
+        "44",
+        "42",
+        "47",
+        "52",
+        "04",
+        "36"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "27",
+        "36",
+        "42",
+        "44",
+        "47",
+        "52"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 15,
+          "valorPremio": 36076.14
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 511,
+          "valorPremio": 1512.83
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 9705,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 91514,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 34352,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "CORITIBA         /PR",
+      "numero": 2334,
+      "numeroConcursoAnterior": 2333,
+      "numeroConcursoFinal_0_5": 2335,
+      "numeroConcursoProximo": 2335,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 9158989,
+      "valorAcumuladoConcurso_0_5": 70381991.87,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 70381991.87,
+      "valorEstimadoProximoConcurso": 72000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "23/12/2025",
+      "dataProximoConcurso": "27/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "26",
+        "48",
+        "63",
+        "75",
+        "69",
+        "05",
+        "44"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "26",
+        "44",
+        "48",
+        "63",
+        "69",
+        "75"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 21,
+          "valorPremio": 26289.13
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 556,
+          "valorPremio": 1418.47
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 9554,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 90687,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 29269,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SPORT            /PE",
+      "numero": 2335,
+      "numeroConcursoAnterior": 2334,
+      "numeroConcursoFinal_0_5": 2340,
+      "numeroConcursoProximo": 2336,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 9219756,
+      "valorAcumuladoConcurso_0_5": 276035.9,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 71762171.37,
+      "valorEstimadoProximoConcurso": 75000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": false,
+      "dataApuracao": "27/12/2025",
+      "dataProximoConcurso": "30/12/2025",
+      "dezenasSorteadasOrdemSorteio": [
+        "38",
+        "44",
+        "64",
+        "22",
+        "18",
+        "03",
+        "08"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "08",
+        "18",
+        "22",
+        "38",
+        "44",
+        "64"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "SALVADOR",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "BA"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 73235115.4
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 17,
+          "valorPremio": 34657.51
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 642,
+          "valorPremio": 1311.03
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 11784,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 108212,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 39491,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CORITIBA         /PR",
+      "numero": 2336,
+      "numeroConcursoAnterior": 2335,
+      "numeroConcursoFinal_0_5": 2340,
+      "numeroConcursoProximo": 2337,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 10093118,
+      "valorAcumuladoConcurso_0_5": 570624.71,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 0,
+      "valorEstimadoProximoConcurso": 100000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "30/12/2025",
+      "dataProximoConcurso": "03/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "67",
+        "08",
+        "29",
+        "35",
+        "43",
+        "70",
+        "62"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "08",
+        "29",
+        "35",
+        "43",
+        "62",
+        "67",
+        "70"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 53047.72
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 96,
+          "valorPremio": 1578.8
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1614,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 15755,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6136,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ATLETICO         /GO",
+      "numero": 2337,
+      "numeroConcursoAnterior": 2336,
+      "numeroConcursoFinal_0_5": 2340,
+      "numeroConcursoProximo": 2338,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1764140,
+      "valorAcumuladoConcurso_0_5": 623672.42,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 265238.58,
+      "valorEstimadoProximoConcurso": 550000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2025
+    }
+  ],
+  "2026": [
+    {
+      "acumulado": true,
+      "dataApuracao": "03/01/2026",
+      "dataProximoConcurso": "06/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "35",
+        "11",
+        "14",
+        "40",
+        "67",
+        "37",
+        "33"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "11",
+        "14",
+        "33",
+        "35",
+        "37",
+        "40",
+        "67"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 91023.42
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 76,
+          "valorPremio": 1710.96
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1502,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 14895,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 4754,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SPORT            /PE",
+      "numero": 2338,
+      "numeroConcursoAnterior": 2337,
+      "numeroConcursoFinal_0_5": 2340,
+      "numeroConcursoProximo": 2339,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1516959.5,
+      "valorAcumuladoConcurso_0_5": 669184.14,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 492797.11,
+      "valorEstimadoProximoConcurso": 700000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "06/01/2026",
+      "dataProximoConcurso": "08/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "24",
+        "31",
+        "33",
+        "11",
+        "57",
+        "21",
+        "07"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "07",
+        "11",
+        "21",
+        "24",
+        "31",
+        "33",
+        "57"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 14456.25
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 88,
+          "valorPremio": 1173.39
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1772,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 14336,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 2152,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "JUAZEIRENSE      /BA",
+      "numero": 2339,
+      "numeroConcursoAnterior": 2338,
+      "numeroConcursoFinal_0_5": 2340,
+      "numeroConcursoProximo": 2340,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1206737,
+      "valorAcumuladoConcurso_0_5": 1378824.93,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 1378824.93,
+      "valorEstimadoProximoConcurso": 1700000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "08/01/2026",
+      "dataProximoConcurso": "10/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "22",
+        "46",
+        "50",
+        "77",
+        "33",
+        "21",
+        "66"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "21",
+        "22",
+        "33",
+        "46",
+        "50",
+        "66",
+        "77"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 30482.77
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 109,
+          "valorPremio": 1198.53
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1758,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 14913,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3538,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "JUVENTUDE        /RS",
+      "numero": 2340,
+      "numeroConcursoAnterior": 2339,
+      "numeroConcursoFinal_0_5": 2345,
+      "numeroConcursoProximo": 2341,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1507859.5,
+      "valorAcumuladoConcurso_0_5": 45724.17,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 1607445.72,
+      "valorEstimadoProximoConcurso": 1800000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "10/01/2026",
+      "dataProximoConcurso": "13/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "42",
+        "36",
+        "35",
+        "65",
+        "71",
+        "58",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "21",
+        "35",
+        "36",
+        "42",
+        "58",
+        "65",
+        "71"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 76,
+          "valorPremio": 1708.63
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1387,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 13970,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 5085,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "REMO             /PA",
+      "numero": 2341,
+      "numeroConcursoAnterior": 2340,
+      "numeroConcursoFinal_0_5": 2345,
+      "numeroConcursoProximo": 2342,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1511923,
+      "valorAcumuladoConcurso_0_5": 91173.8,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 1925593.16,
+      "valorEstimadoProximoConcurso": 2100000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "13/01/2026",
+      "dataProximoConcurso": "15/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "35",
+        "39",
+        "48",
+        "22",
+        "01",
+        "10",
+        "56"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "10",
+        "22",
+        "35",
+        "39",
+        "48",
+        "56"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 18242.5
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 106,
+          "valorPremio": 1229.27
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1627,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 15838,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 4871,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CUIABA           /MT",
+      "numero": 2342,
+      "numeroConcursoAnterior": 2341,
+      "numeroConcursoFinal_0_5": 2345,
+      "numeroConcursoProximo": 2343,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1530875.5,
+      "valorAcumuladoConcurso_0_5": 136780.05,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 2153624.37,
+      "valorEstimadoProximoConcurso": 2400000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "15/01/2026",
+      "dataProximoConcurso": "17/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "08",
+        "21",
+        "06",
+        "71",
+        "01",
+        "72",
+        "61"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "06",
+        "08",
+        "21",
+        "61",
+        "71",
+        "72"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 17631.79
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 98,
+          "valorPremio": 1285.11
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1517,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 14511,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3377,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "NOVORIZONTINO    /SP",
+      "numero": 2343,
+      "numeroConcursoAnterior": 2342,
+      "numeroConcursoFinal_0_5": 2345,
+      "numeroConcursoProximo": 2344,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1450256.5,
+      "valorAcumuladoConcurso_0_5": 180859.52,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 2374021.73,
+      "valorEstimadoProximoConcurso": 2500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "17/01/2026",
+      "dataProximoConcurso": "20/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "34",
+        "64",
+        "61",
+        "52",
+        "37",
+        "46",
+        "03"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "34",
+        "37",
+        "46",
+        "52",
+        "61",
+        "64"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 45322.34
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 57,
+          "valorPremio": 2271.79
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1516,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 13562,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 2809,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "JACUIPENSE       /BA",
+      "numero": 2344,
+      "numeroConcursoAnterior": 2343,
+      "numeroConcursoFinal_0_5": 2345,
+      "numeroConcursoProximo": 2345,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1469447,
+      "valorAcumuladoConcurso_0_5": 226181.86,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 2826815.29,
+      "valorEstimadoProximoConcurso": 3000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "20/01/2026",
+      "dataProximoConcurso": "22/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "35",
+        "28",
+        "19",
+        "15",
+        "69",
+        "71",
+        "03"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "15",
+        "19",
+        "28",
+        "35",
+        "69",
+        "71"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 78,
+          "valorPremio": 1622.26
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1702,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 15982,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3740,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "AMAZONAS         /AM",
+      "numero": 2345,
+      "numeroConcursoAnterior": 2344,
+      "numeroConcursoFinal_0_5": 2350,
+      "numeroConcursoProximo": 2346,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1476562.5,
+      "valorAcumuladoConcurso_0_5": 44287.84,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 3136830.08,
+      "valorEstimadoProximoConcurso": 3400000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "22/01/2026",
+      "dataProximoConcurso": "24/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "34",
+        "69",
+        "43",
+        "60",
+        "76",
+        "50",
+        "05"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "34",
+        "43",
+        "50",
+        "60",
+        "69",
+        "76"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 43657.57
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 74,
+          "valorPremio": 1685.62
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1381,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 13557,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10852,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BOTAFOGO         /RJ",
+      "numero": 2346,
+      "numeroConcursoAnterior": 2345,
+      "numeroConcursoFinal_0_5": 2350,
+      "numeroConcursoProximo": 2347,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1555743,
+      "valorAcumuladoConcurso_0_5": 87945.4,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 3355117.9,
+      "valorEstimadoProximoConcurso": 3600000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "24/01/2026",
+      "dataProximoConcurso": "27/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "26",
+        "61",
+        "32",
+        "35",
+        "72",
+        "01",
+        "19"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "19",
+        "26",
+        "32",
+        "35",
+        "61",
+        "72"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 90416.41
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 61,
+          "valorPremio": 2117.48
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1572,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 15932,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 12261,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CRUZEIRO         /MG",
+      "numero": 2347,
+      "numeroConcursoAnterior": 2346,
+      "numeroConcursoFinal_0_5": 2350,
+      "numeroConcursoProximo": 2348,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1644636,
+      "valorAcumuladoConcurso_0_5": 133153.61,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 3581158.93,
+      "valorEstimadoProximoConcurso": 3800000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "27/01/2026",
+      "dataProximoConcurso": "29/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "12",
+        "55",
+        "42",
+        "04",
+        "21",
+        "37",
+        "65"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "12",
+        "21",
+        "37",
+        "42",
+        "55",
+        "65"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 46695.99
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 94,
+          "valorPremio": 1419.33
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1750,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 16215,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3120,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SAORAIMUNDO      /RR",
+      "numero": 2348,
+      "numeroConcursoAnterior": 2347,
+      "numeroConcursoFinal_0_5": 2350,
+      "numeroConcursoProximo": 2349,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1537466,
+      "valorAcumuladoConcurso_0_5": 179849.59,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 3814638.85,
+      "valorEstimadoProximoConcurso": 4000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "29/01/2026",
+      "dataProximoConcurso": "31/01/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "15",
+        "10",
+        "52",
+        "42",
+        "79",
+        "26",
+        "01"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "10",
+        "15",
+        "26",
+        "42",
+        "52",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 21263.18
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 85,
+          "valorPremio": 1429.45
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1600,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 15500,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6362,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "GOIAS            /GO",
+      "numero": 2349,
+      "numeroConcursoAnterior": 2348,
+      "numeroConcursoFinal_0_5": 2350,
+      "numeroConcursoProximo": 2350,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1465292.5,
+      "valorAcumuladoConcurso_0_5": 4249646.52,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 4249646.52,
+      "valorEstimadoProximoConcurso": 4500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "31/01/2026",
+      "dataProximoConcurso": "03/02/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "71",
+        "44",
+        "47",
+        "40",
+        "48",
+        "05",
+        "42"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "40",
+        "42",
+        "44",
+        "47",
+        "48",
+        "71"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 98913.43
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 104,
+          "valorPremio": 1358.7
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1744,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 16821,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 12420,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BOTAFOGO         /RJ",
+      "numero": 2350,
+      "numeroConcursoAnterior": 2349,
+      "numeroConcursoFinal_0_5": 2355,
+      "numeroConcursoProximo": 2351,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1778560,
+      "valorAcumuladoConcurso_0_5": 49456.72,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 4496930.1,
+      "valorEstimadoProximoConcurso": 5000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "03/02/2026",
+      "dataProximoConcurso": "05/02/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "16",
+        "10",
+        "49",
+        "50",
+        "09",
+        "07",
+        "45"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "07",
+        "09",
+        "10",
+        "16",
+        "45",
+        "49",
+        "50"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 112155.26
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 131,
+          "valorPremio": 1223.06
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2335,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 21498,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 4358,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "OPERARIO         /PR",
+      "numero": 2351,
+      "numeroConcursoAnterior": 2350,
+      "numeroConcursoFinal_0_5": 2355,
+      "numeroConcursoProximo": 2352,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1875825,
+      "valorAcumuladoConcurso_0_5": 105534.35,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 4777318.25,
+      "valorEstimadoProximoConcurso": 5100000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "05/02/2026",
+      "dataProximoConcurso": "07/02/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "44",
+        "08",
+        "65",
+        "54",
+        "13",
+        "15",
+        "34"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "08",
+        "13",
+        "15",
+        "34",
+        "44",
+        "54",
+        "65"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 33111.44
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 93,
+          "valorPremio": 1525.87
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1983,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 19054,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 12678,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CRUZEIRO         /MG",
+      "numero": 2352,
+      "numeroConcursoAnterior": 2351,
+      "numeroConcursoFinal_0_5": 2355,
+      "numeroConcursoProximo": 2353,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1809608.5,
+      "valorAcumuladoConcurso_0_5": 155201.51,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 5025654.01,
+      "valorEstimadoProximoConcurso": 5300000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "07/02/2026",
+      "dataProximoConcurso": "10/02/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "05",
+        "77",
+        "71",
+        "67",
+        "72",
+        "40",
+        "36"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "36",
+        "40",
+        "67",
+        "71",
+        "72",
+        "77"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 121439.15
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 81,
+          "valorPremio": 2141.78
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1927,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 19140,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 8211,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ABC              /RN",
+      "numero": 2353,
+      "numeroConcursoAnterior": 2352,
+      "numeroConcursoFinal_0_5": 2355,
+      "numeroConcursoProximo": 2354,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2048879,
+      "valorAcumuladoConcurso_0_5": 215921.08,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 5329251.88,
+      "valorEstimadoProximoConcurso": 5600000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "10/02/2026",
+      "dataProximoConcurso": "12/02/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "07",
+        "36",
+        "16",
+        "73",
+        "06",
+        "29",
+        "51"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "06",
+        "07",
+        "16",
+        "29",
+        "36",
+        "51",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 37800.77
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 93,
+          "valorPremio": 1741.97
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1844,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 17953,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 4512,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SAO JOSE         /RS",
+      "numero": 2354,
+      "numeroConcursoAnterior": 2353,
+      "numeroConcursoFinal_0_5": 2355,
+      "numeroConcursoProximo": 2355,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1861132,
+      "valorAcumuladoConcurso_0_5": 272622.24,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 5885379.89,
+      "valorEstimadoProximoConcurso": 6200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "12/02/2026",
+      "dataProximoConcurso": "14/02/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "12",
+        "24",
+        "33",
+        "64",
+        "73",
+        "38",
+        "63"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "12",
+        "24",
+        "33",
+        "38",
+        "63",
+        "64",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 102,
+          "valorPremio": 1622.19
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2055,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 19242,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3673,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "MANAUS           /AM",
+      "numero": 2355,
+      "numeroConcursoAnterior": 2354,
+      "numeroConcursoFinal_0_5": 2360,
+      "numeroConcursoProximo": 2356,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1894924.5,
+      "valorAcumuladoConcurso_0_5": 57912.22,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 6290765.34,
+      "valorEstimadoProximoConcurso": 6600000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "14/02/2026",
+      "dataProximoConcurso": "19/02/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "40",
+        "67",
+        "58",
+        "35",
+        "36",
+        "45",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "21",
+        "35",
+        "36",
+        "40",
+        "45",
+        "58",
+        "67"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 40525.52
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 96,
+          "valorPremio": 1809.17
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2128,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 20288,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 14517,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "GREMIO           /RS",
+      "numero": 2356,
+      "numeroConcursoAnterior": 2355,
+      "numeroConcursoFinal_0_5": 2360,
+      "numeroConcursoProximo": 2357,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2170301,
+      "valorAcumuladoConcurso_0_5": 118700.5,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 6594706.74,
+      "valorEstimadoProximoConcurso": 7000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "19/02/2026",
+      "dataProximoConcurso": "21/02/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "56",
+        "33",
+        "01",
+        "12",
+        "19",
+        "34",
+        "52"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "12",
+        "19",
+        "33",
+        "34",
+        "52",
+        "56"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 42213.32
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 152,
+          "valorPremio": 1190.22
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2847,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 24624,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 5024,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "FERROVIARIO      /CE",
+      "numero": 2357,
+      "numeroConcursoAnterior": 2356,
+      "numeroConcursoFinal_0_5": 2360,
+      "numeroConcursoProximo": 2358,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2126705,
+      "valorAcumuladoConcurso_0_5": 182020.47,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 6911306.59,
+      "valorEstimadoProximoConcurso": 7500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "21/02/2026",
+      "dataProximoConcurso": "24/02/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "15",
+        "35",
+        "70",
+        "57",
+        "74",
+        "53",
+        "71"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "15",
+        "35",
+        "53",
+        "57",
+        "70",
+        "71",
+        "74"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 43589.84
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 113,
+          "valorPremio": 1653.21
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2072,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 20361,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 4901,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BOTAFOGO         /SP",
+      "numero": 2358,
+      "numeroConcursoAnterior": 2357,
+      "numeroConcursoFinal_0_5": 2360,
+      "numeroConcursoProximo": 2359,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2137492,
+      "valorAcumuladoConcurso_0_5": 247405.23,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 7238230.39,
+      "valorEstimadoProximoConcurso": 7800000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "24/02/2026",
+      "dataProximoConcurso": "26/02/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "71",
+        "12",
+        "66",
+        "74",
+        "13",
+        "72",
+        "60"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "12",
+        "13",
+        "60",
+        "66",
+        "71",
+        "72",
+        "74"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 104,
+          "valorPremio": 1762.87
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2110,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 20631,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6042,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "FIGUEIRENSE      /SC",
+      "numero": 2359,
+      "numeroConcursoAnterior": 2358,
+      "numeroConcursoFinal_0_5": 2360,
+      "numeroConcursoProximo": 2360,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2124829,
+      "valorAcumuladoConcurso_0_5": 7998984.25,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 7998984.25,
+      "valorEstimadoProximoConcurso": 8500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "26/02/2026",
+      "dataProximoConcurso": "28/02/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "07",
+        "76",
+        "53",
+        "28",
+        "26",
+        "10",
+        "19"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "07",
+        "10",
+        "19",
+        "26",
+        "28",
+        "53",
+        "76"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 44172.6
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 170,
+          "valorPremio": 1113.59
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3005,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 25949,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6111,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CHAPECOENSE      /SC",
+      "numero": 2360,
+      "numeroConcursoAnterior": 2359,
+      "numeroConcursoFinal_0_5": 2365,
+      "numeroConcursoProximo": 2361,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2241746.5,
+      "valorAcumuladoConcurso_0_5": 66258.91,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 8330278.76,
+      "valorEstimadoProximoConcurso": 8700000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "28/02/2026",
+      "dataProximoConcurso": "03/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "19",
+        "51",
+        "38",
+        "76",
+        "44",
+        "35",
+        "63"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "19",
+        "35",
+        "38",
+        "44",
+        "51",
+        "63",
+        "76"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 148569.79
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 130,
+          "valorPremio": 1632.63
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2263,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 23198,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 4615,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "TOCANTINOPOLIS   /TO",
+      "numero": 2361,
+      "numeroConcursoAnterior": 2360,
+      "numeroConcursoFinal_0_5": 2365,
+      "numeroConcursoProximo": 2362,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2410789.5,
+      "valorAcumuladoConcurso_0_5": 140543.81,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 8701703.22,
+      "valorEstimadoProximoConcurso": 9000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "03/03/2026",
+      "dataProximoConcurso": "05/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "26",
+        "30",
+        "47",
+        "79",
+        "52",
+        "21",
+        "51"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "21",
+        "26",
+        "30",
+        "47",
+        "51",
+        "52",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 46551.55
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 107,
+          "valorPremio": 1864.54
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2052,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 20572,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6440,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ALTOS            /PI",
+      "numero": 2362,
+      "numeroConcursoAnterior": 2361,
+      "numeroConcursoFinal_0_5": 2365,
+      "numeroConcursoProximo": 2363,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2291642.5,
+      "valorAcumuladoConcurso_0_5": 210371.14,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 9050839.85,
+      "valorEstimadoProximoConcurso": 9400000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "05/03/2026",
+      "dataProximoConcurso": "07/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "14",
+        "37",
+        "17",
+        "05",
+        "04",
+        "67",
+        "10"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "05",
+        "10",
+        "14",
+        "17",
+        "37",
+        "67"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 33541.67
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 198,
+          "valorPremio": 968.01
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2924,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 26682,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6265,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "PAYSANDU         /PA",
+      "numero": 2363,
+      "numeroConcursoAnterior": 2362,
+      "numeroConcursoFinal_0_5": 2365,
+      "numeroConcursoProximo": 2364,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2271349.5,
+      "valorAcumuladoConcurso_0_5": 277454.47,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 9386256.49,
+      "valorEstimadoProximoConcurso": 9700000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "07/03/2026",
+      "dataProximoConcurso": "10/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "24",
+        "31",
+        "52",
+        "54",
+        "41",
+        "55",
+        "26"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "24",
+        "26",
+        "31",
+        "41",
+        "52",
+        "54",
+        "55"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 29216.59
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 106,
+          "valorPremio": 1968.77
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2183,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 22209,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6369,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "VILA NOVA        /GO",
+      "numero": 2364,
+      "numeroConcursoAnterior": 2363,
+      "numeroConcursoFinal_0_5": 2365,
+      "numeroConcursoProximo": 2365,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2396478,
+      "valorAcumuladoConcurso_0_5": 10101959.74,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 10101959.74,
+      "valorEstimadoProximoConcurso": 10500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "10/03/2026",
+      "dataProximoConcurso": "12/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "17",
+        "29",
+        "03",
+        "07",
+        "38",
+        "50",
+        "08"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "07",
+        "08",
+        "17",
+        "29",
+        "38",
+        "50"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 21224.64
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 175,
+          "valorPremio": 1039.57
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2899,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 26641,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 14757,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ATLETICO         /MG",
+      "numero": 2365,
+      "numeroConcursoAnterior": 2364,
+      "numeroConcursoFinal_0_5": 2370,
+      "numeroConcursoProximo": 2366,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2317490,
+      "valorAcumuladoConcurso_0_5": 63673.93,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 10420329.36,
+      "valorEstimadoProximoConcurso": 11000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "12/03/2026",
+      "dataProximoConcurso": "14/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "18",
+        "40",
+        "76",
+        "74",
+        "13",
+        "08",
+        "22"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "08",
+        "13",
+        "18",
+        "22",
+        "40",
+        "74",
+        "76"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 123,
+          "valorPremio": 1715.19
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2585,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 24495,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6382,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "VILA NOVA        /GO",
+      "numero": 2366,
+      "numeroConcursoAnterior": 2365,
+      "numeroConcursoFinal_0_5": 2370,
+      "numeroConcursoProximo": 2367,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2443934.5,
+      "valorAcumuladoConcurso_0_5": 137513.1,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 10937203.53,
+      "valorEstimadoProximoConcurso": 11500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "14/03/2026",
+      "dataProximoConcurso": "17/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "36",
+        "52",
+        "71",
+        "06",
+        "46",
+        "28",
+        "22"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "06",
+        "22",
+        "28",
+        "36",
+        "46",
+        "52",
+        "71"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 36855.04
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 139,
+          "valorPremio": 1515.1
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2448,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 24747,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 14125,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "INTERNACIONAL    /RS",
+      "numero": 2367,
+      "numeroConcursoAnterior": 2366,
+      "numeroConcursoFinal_0_5": 2370,
+      "numeroConcursoProximo": 2368,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2570764,
+      "valorAcumuladoConcurso_0_5": 211223.17,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 11305753.88,
+      "valorEstimadoProximoConcurso": 11700000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "17/03/2026",
+      "dataProximoConcurso": "19/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "77",
+        "75",
+        "26",
+        "24",
+        "19",
+        "66",
+        "45"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "19",
+        "24",
+        "26",
+        "45",
+        "66",
+        "75",
+        "77"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 69764.7
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 119,
+          "valorPremio": 1675.02
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2571,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 24101,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 7467,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SPORT            /PE",
+      "numero": 2368,
+      "numeroConcursoAnterior": 2367,
+      "numeroConcursoFinal_0_5": 2370,
+      "numeroConcursoProximo": 2369,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2342914,
+      "valorAcumuladoConcurso_0_5": 280987.87,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 11654577.36,
+      "valorEstimadoProximoConcurso": 12000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "19/03/2026",
+      "dataProximoConcurso": "21/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "43",
+        "59",
+        "73",
+        "60",
+        "65",
+        "22",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "21",
+        "22",
+        "43",
+        "59",
+        "60",
+        "65",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 34118.1
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 131,
+          "valorPremio": 1860.31
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2590,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 25481,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6122,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "JACUIPENSE       /BA",
+      "numero": 2369,
+      "numeroConcursoAnterior": 2368,
+      "numeroConcursoFinal_0_5": 2370,
+      "numeroConcursoProximo": 2370,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2773837.5,
+      "valorAcumuladoConcurso_0_5": 366283.1,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 12447336.58,
+      "valorEstimadoProximoConcurso": 13000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "21/03/2026",
+      "dataProximoConcurso": "24/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "79",
+        "76",
+        "63",
+        "40",
+        "10",
+        "22",
+        "74"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "10",
+        "22",
+        "40",
+        "63",
+        "74",
+        "76",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 37181.14
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 168,
+          "valorPremio": 1580.83
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2845,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 28902,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 12773,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "GOIAS            /GO",
+      "numero": 2370,
+      "numeroConcursoAnterior": 2369,
+      "numeroConcursoFinal_0_5": 2375,
+      "numeroConcursoProximo": 2371,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3134995.5,
+      "valorAcumuladoConcurso_0_5": 92952.85,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 12912100.79,
+      "valorEstimadoProximoConcurso": 13500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "24/03/2026",
+      "dataProximoConcurso": "26/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "32",
+        "02",
+        "29",
+        "16",
+        "77",
+        "61",
+        "22"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "16",
+        "22",
+        "29",
+        "32",
+        "61",
+        "77"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 29130.19
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 156,
+          "valorPremio": 1600.55
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2914,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 29637,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 18888,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BAHIA            /BA",
+      "numero": 2371,
+      "numeroConcursoAnterior": 2370,
+      "numeroConcursoFinal_0_5": 2375,
+      "numeroConcursoProximo": 2372,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3086622,
+      "valorAcumuladoConcurso_0_5": 180343.41,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 13349053.57,
+      "valorEstimadoProximoConcurso": 14000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "26/03/2026",
+      "dataProximoConcurso": "28/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "12",
+        "23",
+        "38",
+        "54",
+        "18",
+        "13",
+        "55"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "12",
+        "13",
+        "18",
+        "23",
+        "38",
+        "54",
+        "55"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 10,
+          "valorPremio": 16814.31
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 178,
+          "valorPremio": 1349.46
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3467,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 32453,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 12267,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ATHLETICO        /PR",
+      "numero": 2372,
+      "numeroConcursoAnterior": 2371,
+      "numeroConcursoFinal_0_5": 2375,
+      "numeroConcursoProximo": 2373,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2910561.5,
+      "valorAcumuladoConcurso_0_5": 264414.97,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 13769411.35,
+      "valorEstimadoProximoConcurso": 14200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "28/03/2026",
+      "dataProximoConcurso": "31/03/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "62",
+        "42",
+        "65",
+        "13",
+        "31",
+        "33",
+        "76"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "13",
+        "31",
+        "33",
+        "42",
+        "62",
+        "65",
+        "76"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 91396.18
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 165,
+          "valorPremio": 1582.61
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3068,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 29460,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 7513,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "NOVORIZONTINO    /SP",
+      "numero": 2373,
+      "numeroConcursoAnterior": 2372,
+      "numeroConcursoFinal_0_5": 2375,
+      "numeroConcursoProximo": 2374,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3009688.5,
+      "valorAcumuladoConcurso_0_5": 355811.15,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 14226392.26,
+      "valorEstimadoProximoConcurso": 14600000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "31/03/2026",
+      "dataProximoConcurso": "02/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "07",
+        "63",
+        "74",
+        "57",
+        "28",
+        "52",
+        "35"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "07",
+        "28",
+        "35",
+        "52",
+        "57",
+        "63",
+        "74"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 38655.68
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 219,
+          "valorPremio": 1260.78
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3890,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 33143,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 8570,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "FLORESTA         /CE",
+      "numero": 2374,
+      "numeroConcursoAnterior": 2373,
+      "numeroConcursoFinal_0_5": 2375,
+      "numeroConcursoProximo": 2375,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3220500.5,
+      "valorAcumuladoConcurso_0_5": 452450.34,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 15162038.5,
+      "valorEstimadoProximoConcurso": 15600000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "02/04/2026",
+      "dataProximoConcurso": "04/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "72",
+        "01",
+        "05",
+        "61",
+        "06",
+        "74",
+        "09"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "05",
+        "06",
+        "09",
+        "61",
+        "72",
+        "74"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 71377.07
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 195,
+          "valorPremio": 1568.72
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3903,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 35315,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 8371,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "OESTE            /SP",
+      "numero": 2375,
+      "numeroConcursoAnterior": 2374,
+      "numeroConcursoFinal_0_5": 2380,
+      "numeroConcursoProximo": 2376,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3530492,
+      "valorAcumuladoConcurso_0_5": 107065.6,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 15697366.48,
+      "valorEstimadoProximoConcurso": 16500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "04/04/2026",
+      "dataProximoConcurso": "07/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "63",
+        "34",
+        "51",
+        "38",
+        "76",
+        "43",
+        "09"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "09",
+        "34",
+        "38",
+        "43",
+        "51",
+        "63",
+        "76"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 7,
+          "valorPremio": 22314.75
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 124,
+          "valorPremio": 1799.57
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2448,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 23135,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 4594,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "TOCANTINOPOLIS   /TO",
+      "numero": 2376,
+      "numeroConcursoAnterior": 2375,
+      "numeroConcursoFinal_0_5": 2380,
+      "numeroConcursoProximo": 2377,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2522926,
+      "valorAcumuladoConcurso_0_5": 185167.22,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 16087874.6,
+      "valorEstimadoProximoConcurso": 17000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "07/04/2026",
+      "dataProximoConcurso": "09/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "61",
+        "67",
+        "21",
+        "35",
+        "58",
+        "40",
+        "54"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "21",
+        "35",
+        "40",
+        "54",
+        "58",
+        "61",
+        "67"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 32751.81
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 212,
+          "valorPremio": 1324.19
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3211,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 31654,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 20820,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BAHIA            /BA",
+      "numero": 2377,
+      "numeroConcursoAnterior": 2376,
+      "numeroConcursoFinal_0_5": 2380,
+      "numeroConcursoProximo": 2378,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3450247.5,
+      "valorAcumuladoConcurso_0_5": 283422.68,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 16579151.84,
+      "valorEstimadoProximoConcurso": 17200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "09/04/2026",
+      "dataProximoConcurso": "11/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "28",
+        "21",
+        "10",
+        "17",
+        "14",
+        "36",
+        "29"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "10",
+        "14",
+        "17",
+        "21",
+        "28",
+        "29",
+        "36"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 40543.47
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 246,
+          "valorPremio": 1177.22
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4339,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 38091,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 12359,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "AMERICA          /MG",
+      "numero": 2378,
+      "numeroConcursoAnterior": 2377,
+      "numeroConcursoFinal_0_5": 2380,
+      "numeroConcursoProximo": 2379,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3463820.5,
+      "valorAcumuladoConcurso_0_5": 384781.33,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 17085945.1,
+      "valorEstimadoProximoConcurso": 17600000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "11/04/2026",
+      "dataProximoConcurso": "14/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "25",
+        "56",
+        "58",
+        "78",
+        "48",
+        "35",
+        "75"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "25",
+        "35",
+        "48",
+        "56",
+        "58",
+        "75",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 213412.33
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 193,
+          "valorPremio": 1579.66
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3661,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 34929,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 13298,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "CUIABA           /MT",
+      "numero": 2379,
+      "numeroConcursoAnterior": 2378,
+      "numeroConcursoFinal_0_5": 2380,
+      "numeroConcursoProximo": 2380,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3596197.5,
+      "valorAcumuladoConcurso_0_5": 18110963.4,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 18110963.4,
+      "valorEstimadoProximoConcurso": 18700000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "14/04/2026",
+      "dataProximoConcurso": "16/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "64",
+        "56",
+        "79",
+        "60",
+        "54",
+        "65",
+        "47"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "47",
+        "54",
+        "56",
+        "60",
+        "64",
+        "65",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 66684.92
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 130,
+          "valorPremio": 2198.4
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2898,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 29228,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6825,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "JACUIPENSE       /BA",
+      "numero": 2380,
+      "numeroConcursoAnterior": 2379,
+      "numeroConcursoFinal_0_5": 2385,
+      "numeroConcursoProximo": 2381,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3239404,
+      "valorAcumuladoConcurso_0_5": 100027.38,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 18611100.27,
+      "valorEstimadoProximoConcurso": 19000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "16/04/2026",
+      "dataProximoConcurso": "18/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "04",
+        "67",
+        "65",
+        "68",
+        "32",
+        "26",
+        "14"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "14",
+        "26",
+        "32",
+        "65",
+        "67",
+        "68"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 38989.74
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 154,
+          "valorPremio": 1808.42
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3223,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 30689,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 8329,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CAXIAS           /RS",
+      "numero": 2381,
+      "numeroConcursoAnterior": 2380,
+      "numeroConcursoFinal_0_5": 2385,
+      "numeroConcursoProximo": 2382,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3209080,
+      "valorAcumuladoConcurso_0_5": 197501.71,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 19098471.95,
+      "valorEstimadoProximoConcurso": 20000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "18/04/2026",
+      "dataProximoConcurso": "23/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "64",
+        "23",
+        "30",
+        "22",
+        "80",
+        "68",
+        "37"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "22",
+        "23",
+        "30",
+        "37",
+        "64",
+        "68",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 70618.01
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 161,
+          "valorPremio": 1879.8
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3183,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 31671,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 7107,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "MANAUS           /AM",
+      "numero": 2382,
+      "numeroConcursoAnterior": 2381,
+      "numeroConcursoFinal_0_5": 2385,
+      "numeroConcursoProximo": 2383,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3435845,
+      "valorAcumuladoConcurso_0_5": 303428.72,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 19628107,
+      "valorEstimadoProximoConcurso": 21000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "23/04/2026",
+      "dataProximoConcurso": "25/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "70",
+        "43",
+        "79",
+        "54",
+        "15",
+        "36",
+        "47"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "15",
+        "36",
+        "43",
+        "47",
+        "54",
+        "70",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 109819.5
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 178,
+          "valorPremio": 1762.75
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3379,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 34135,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 11835,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "APARECIDENSE     /GO",
+      "numero": 2383,
+      "numeroConcursoAnterior": 2382,
+      "numeroConcursoFinal_0_5": 2385,
+      "numeroConcursoProximo": 2384,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3648799,
+      "valorAcumuladoConcurso_0_5": 413248.22,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 20177204.5,
+      "valorEstimadoProximoConcurso": 21500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "25/04/2026",
+      "dataProximoConcurso": "28/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "29",
+        "79",
+        "66",
+        "26",
+        "14",
+        "74",
+        "47"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "14",
+        "26",
+        "29",
+        "47",
+        "66",
+        "74",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 53012.93
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 221,
+          "valorPremio": 1370.72
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3812,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 34515,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 11194,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "SPORT            /PE",
+      "numero": 2384,
+      "numeroConcursoAnterior": 2383,
+      "numeroConcursoFinal_0_5": 2385,
+      "numeroConcursoProximo": 2385,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3541265,
+      "valorAcumuladoConcurso_0_5": 21226607.82,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 21226607.82,
+      "valorEstimadoProximoConcurso": 22000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "28/04/2026",
+      "dataProximoConcurso": "30/04/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "14",
+        "76",
+        "17",
+        "16",
+        "20",
+        "05",
+        "70"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "14",
+        "16",
+        "17",
+        "20",
+        "70",
+        "76"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 67962.48
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 155,
+          "valorPremio": 1879.14
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3410,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 33237,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10476,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CRB              /AL",
+      "numero": 2385,
+      "numeroConcursoAnterior": 2384,
+      "numeroConcursoFinal_0_5": 2390,
+      "numeroConcursoProximo": 2386,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3395038.5,
+      "valorAcumuladoConcurso_0_5": 101943.72,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 21736326.38,
+      "valorEstimadoProximoConcurso": 22500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "30/04/2026",
+      "dataProximoConcurso": "05/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "31",
+        "59",
+        "20",
+        "64",
+        "02",
+        "54",
+        "65"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "20",
+        "31",
+        "54",
+        "59",
+        "64",
+        "65"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 195941.76
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 136,
+          "valorPremio": 2058.21
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3055,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 30829,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 23711,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "VASCO DA GAMA    /RJ",
+      "numero": 2386,
+      "numeroConcursoAnterior": 2385,
+      "numeroConcursoFinal_0_5": 2390,
+      "numeroConcursoProximo": 2387,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3482213,
+      "valorAcumuladoConcurso_0_5": 199914.6,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 22226180.78,
+      "valorEstimadoProximoConcurso": 23000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "05/05/2026",
+      "dataProximoConcurso": "07/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "05",
+        "52",
+        "42",
+        "03",
+        "27",
+        "10",
+        "44"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "05",
+        "10",
+        "27",
+        "42",
+        "44",
+        "52"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 11,
+          "valorPremio": 30661.16
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 424,
+          "valorPremio": 1136.36
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 7208,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 65938,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 12315,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "POUSO ALEGRE     /MG",
+      "numero": 2387,
+      "numeroConcursoAnterior": 2386,
+      "numeroConcursoFinal_0_5": 2390,
+      "numeroConcursoProximo": 2388,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 5640470.5,
+      "valorAcumuladoConcurso_0_5": 368550.96,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 23069362.54,
+      "valorEstimadoProximoConcurso": 24000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "07/05/2026",
+      "dataProximoConcurso": "09/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "46",
+        "39",
+        "36",
+        "27",
+        "23",
+        "05",
+        "71"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "23",
+        "27",
+        "36",
+        "39",
+        "46",
+        "71"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 5,
+          "valorPremio": 47909.85
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 205,
+          "valorPremio": 1669.33
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4119,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 40008,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 8091,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "JUAZEIRENSE      /BA",
+      "numero": 2388,
+      "numeroConcursoAnterior": 2387,
+      "numeroConcursoFinal_0_5": 2390,
+      "numeroConcursoProximo": 2389,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3926233.5,
+      "valorAcumuladoConcurso_0_5": 488325.56,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 23668235.55,
+      "valorEstimadoProximoConcurso": 24500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "09/05/2026",
+      "dataProximoConcurso": "12/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "06",
+        "47",
+        "36",
+        "56",
+        "04",
+        "63",
+        "13"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "06",
+        "13",
+        "36",
+        "47",
+        "56",
+        "63"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 11,
+          "valorPremio": 21958.47
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 250,
+          "valorPremio": 1380.24
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4491,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 42290,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10263,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "ATHLETIC CLUB    /MG",
+      "numero": 2389,
+      "numeroConcursoAnterior": 2388,
+      "numeroConcursoFinal_0_5": 2390,
+      "numeroConcursoProximo": 2390,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4015427.5,
+      "valorAcumuladoConcurso_0_5": 24881190.36,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 24881190.36,
+      "valorEstimadoProximoConcurso": 25500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "12/05/2026",
+      "dataProximoConcurso": "14/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "21",
+        "36",
+        "78",
+        "46",
+        "58",
+        "04",
+        "22"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "21",
+        "22",
+        "36",
+        "46",
+        "58",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 34672.62
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 193,
+          "valorPremio": 1539.86
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3690,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 36676,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 27205,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SAO PAULO        /SP",
+      "numero": 2390,
+      "numeroConcursoAnterior": 2389,
+      "numeroConcursoFinal_0_5": 2395,
+      "numeroConcursoProximo": 2391,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3768646,
+      "valorAcumuladoConcurso_0_5": 104017.87,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 25401279.68,
+      "valorEstimadoProximoConcurso": 26000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "14/05/2026",
+      "dataProximoConcurso": "16/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "21",
+        "71",
+        "17",
+        "08",
+        "79",
+        "09",
+        "16"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "08",
+        "09",
+        "16",
+        "17",
+        "21",
+        "71",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 7,
+          "valorPremio": 32997.39
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 253,
+          "valorPremio": 1304.24
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4185,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 39634,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 8250,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "POUSO ALEGRE     /MG",
+      "numero": 2391,
+      "numeroConcursoAnterior": 2390,
+      "numeroConcursoFinal_0_5": 2395,
+      "numeroConcursoProximo": 2392,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3805312,
+      "valorAcumuladoConcurso_0_5": 219508.73,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 25978734.01,
+      "valorEstimadoProximoConcurso": 26700000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "16/05/2026",
+      "dataProximoConcurso": "19/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "17",
+        "59",
+        "12",
+        "78",
+        "23",
+        "04",
+        "75"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "12",
+        "17",
+        "23",
+        "59",
+        "75",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 8,
+          "valorPremio": 29676.14
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 258,
+          "valorPremio": 1314.55
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4328,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 40947,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 7677,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "TOMBENSE         /MG",
+      "numero": 2392,
+      "numeroConcursoAnterior": 2391,
+      "numeroConcursoFinal_0_5": 2395,
+      "numeroConcursoProximo": 2393,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3899584.5,
+      "valorAcumuladoConcurso_0_5": 338213.29,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 26572256.74,
+      "valorEstimadoProximoConcurso": 27200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "19/05/2026",
+      "dataProximoConcurso": "21/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "34",
+        "50",
+        "73",
+        "60",
+        "14",
+        "46",
+        "27"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "14",
+        "27",
+        "34",
+        "46",
+        "50",
+        "60",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 77059.14
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 171,
+          "valorPremio": 1931.3
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3596,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 34863,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 11559,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CRB              /AL",
+      "numero": 2393,
+      "numeroConcursoAnterior": 2392,
+      "numeroConcursoFinal_0_5": 2395,
+      "numeroConcursoProximo": 2394,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 3818594.5,
+      "valorAcumuladoConcurso_0_5": 453802,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 27150200.28,
+      "valorEstimadoProximoConcurso": 28000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "21/05/2026",
+      "dataProximoConcurso": "23/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "73",
+        "52",
+        "26",
+        "08",
+        "03",
+        "47",
+        "15"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "08",
+        "15",
+        "26",
+        "47",
+        "52",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 58196.13
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 285,
+          "valorPremio": 1166.83
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4784,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 43629,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 25997,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "ATLETICO         /MG",
+      "numero": 2394,
+      "numeroConcursoAnterior": 2393,
+      "numeroConcursoFinal_0_5": 2395,
+      "numeroConcursoProximo": 2395,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4173309,
+      "valorAcumuladoConcurso_0_5": 28302355.8,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 28302355.8,
+      "valorEstimadoProximoConcurso": 29000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "23/05/2026",
+      "dataProximoConcurso": "26/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "26",
+        "52",
+        "22",
+        "32",
+        "35",
+        "10",
+        "04"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "10",
+        "22",
+        "26",
+        "32",
+        "35",
+        "52"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 11,
+          "valorPremio": 21995.24
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 300,
+          "valorPremio": 1152.13
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4649,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 42711,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10630,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "FLORESTA         /CE",
+      "numero": 2395,
+      "numeroConcursoAnterior": 2394,
+      "numeroConcursoFinal_0_5": 2400,
+      "numeroConcursoProximo": 2396,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4033711.5,
+      "valorAcumuladoConcurso_0_5": 120973.85,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 28907225.01,
+      "valorEstimadoProximoConcurso": 30000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "26/05/2026",
+      "dataProximoConcurso": "28/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "62",
+        "27",
+        "68",
+        "37",
+        "01",
+        "52",
+        "30"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "27",
+        "30",
+        "37",
+        "52",
+        "62",
+        "68"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 96219.65
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 222,
+          "valorPremio": 1857.52
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4020,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 41391,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 11688,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BOTAFOGO         /SP",
+      "numero": 2396,
+      "numeroConcursoAnterior": 2395,
+      "numeroConcursoFinal_0_5": 2400,
+      "numeroConcursoProximo": 2397,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4696552,
+      "valorAcumuladoConcurso_0_5": 265303.32,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 29628872.33,
+      "valorEstimadoProximoConcurso": 31000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "28/05/2026",
+      "dataProximoConcurso": "30/05/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "53",
+        "12",
+        "26",
+        "70",
+        "01",
+        "15",
+        "64"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "12",
+        "15",
+        "26",
+        "53",
+        "64",
+        "70"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 69239.88
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 205,
+          "valorPremio": 1930.03
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4242,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 43267,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 12656,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "AMAZONAS         /AM",
+      "numero": 2397,
+      "numeroConcursoAnterior": 2396,
+      "numeroConcursoFinal_0_5": 2400,
+      "numeroConcursoProximo": 2398,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4563667.5,
+      "valorAcumuladoConcurso_0_5": 403783.08,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 30321271.12,
+      "valorEstimadoProximoConcurso": 32000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "30/05/2026",
+      "dataProximoConcurso": "02/06/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "40",
+        "29",
+        "53",
+        "70",
+        "48",
+        "47",
+        "11"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "11",
+        "29",
+        "40",
+        "47",
+        "48",
+        "53",
+        "70"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 47396.69
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 224,
+          "valorPremio": 1813.64
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 4383,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 45174,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 30032,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "GREMIO           /RS",
+      "numero": 2398,
+      "numeroConcursoAnterior": 2397,
+      "numeroConcursoFinal_0_5": 2400,
+      "numeroConcursoProximo": 2399,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4981378.5,
+      "valorAcumuladoConcurso_0_5": 545973.15,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 31032221.48,
+      "valorEstimadoProximoConcurso": 32500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "02/06/2026",
+      "dataProximoConcurso": "06/06/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "37",
+        "62",
+        "33",
+        "02",
+        "10",
+        "57",
+        "14"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "10",
+        "14",
+        "33",
+        "37",
+        "57",
+        "62"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 7,
+          "valorPremio": 41315.4
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 295,
+          "valorPremio": 1400.52
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 5334,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 50908,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 11978,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "YPIRANGA         /RS",
+      "numero": 2399,
+      "numeroConcursoAnterior": 2398,
+      "numeroConcursoFinal_0_5": 2400,
+      "numeroConcursoProximo": 2400,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 4803536.5,
+      "valorAcumuladoConcurso_0_5": 32445818.13,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 32445818.13,
+      "valorEstimadoProximoConcurso": 34000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "06/06/2026",
+      "dataProximoConcurso": "09/06/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "51",
+        "58",
+        "22",
+        "73",
+        "64",
+        "57",
+        "47"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "22",
+        "47",
+        "51",
+        "57",
+        "58",
+        "64",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 8,
+          "valorPremio": 45225.67
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 282,
+          "valorPremio": 1832.85
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 5718,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 56095,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 13543,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "YPIRANGA         /RS",
+      "numero": 2400,
+      "numeroConcursoAnterior": 2399,
+      "numeroConcursoFinal_0_5": 2405,
+      "numeroConcursoProximo": 2401,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 5911622.5,
+      "valorAcumuladoConcurso_0_5": 180902.71,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 33350331.61,
+      "valorEstimadoProximoConcurso": 34500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": false,
+      "dataApuracao": "09/06/2026",
+      "dataProximoConcurso": "11/06/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "01",
+        "40",
+        "08",
+        "10",
+        "50",
+        "63",
+        "38"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "08",
+        "10",
+        "38",
+        "40",
+        "50",
+        "63"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [
+        {
+          "ganhadores": 1,
+          "municipio": "AVANHANDAVA",
+          "nomeFatansiaUL": "",
+          "posicao": 1,
+          "serie": "",
+          "uf": "SP"
+        }
+      ],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 34187113.8
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 9,
+          "valorPremio": 37190.32
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 324,
+          "valorPremio": 1475.8
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 5919,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 54296,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 15043,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SAMP CORREA      /MA",
+      "numero": 2401,
+      "numeroConcursoAnterior": 2400,
+      "numeroConcursoFinal_0_5": 2405,
+      "numeroConcursoProximo": 2402,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 5541714.5,
+      "valorAcumuladoConcurso_0_5": 348259.15,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 0,
+      "valorEstimadoProximoConcurso": 300000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "11/06/2026",
+      "dataProximoConcurso": "14/06/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "78",
+        "72",
+        "42",
+        "63",
+        "43",
+        "77",
+        "38"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "38",
+        "42",
+        "43",
+        "63",
+        "72",
+        "77",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 36088.38
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 51,
+          "valorPremio": 2021.75
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1054,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 10243,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 2436,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CAMPINENSE       /PB",
+      "numero": 2402,
+      "numeroConcursoAnterior": 2401,
+      "numeroConcursoFinal_0_5": 2405,
+      "numeroConcursoProximo": 2403,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1166343.5,
+      "valorAcumuladoConcurso_0_5": 384347.53,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 180441.89,
+      "valorEstimadoProximoConcurso": 450000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "14/06/2026",
+      "dataProximoConcurso": "16/06/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "36",
+        "51",
+        "43",
+        "65",
+        "13",
+        "16",
+        "66"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "13",
+        "16",
+        "36",
+        "43",
+        "51",
+        "65",
+        "66"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 33250.61
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 66,
+          "valorPremio": 1439.42
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1130,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 10871,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3630,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "AMERICA          /RN",
+      "numero": 2403,
+      "numeroConcursoAnterior": 2402,
+      "numeroConcursoFinal_0_5": 2405,
+      "numeroConcursoProximo": 2404,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1111554.5,
+      "valorAcumuladoConcurso_0_5": 417598.14,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 346694.95,
+      "valorEstimadoProximoConcurso": 500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "16/06/2026",
+      "dataProximoConcurso": "18/06/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "42",
+        "17",
+        "23",
+        "04",
+        "63",
+        "15",
+        "11"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "11",
+        "15",
+        "17",
+        "23",
+        "42",
+        "63"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 80,
+          "valorPremio": 1125.74
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1538,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 12594,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 2922,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "BOTAFOGO         /PB",
+      "numero": 2404,
+      "numeroConcursoAnterior": 2403,
+      "numeroConcursoFinal_0_5": 2405,
+      "numeroConcursoProximo": 2405,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1070727,
+      "valorAcumuladoConcurso_0_5": 1016460.25,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 1016460.25,
+      "valorEstimadoProximoConcurso": 1200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "18/06/2026",
+      "dataProximoConcurso": "20/06/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "15",
+        "80",
+        "26",
+        "58",
+        "52",
+        "56",
+        "09"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "09",
+        "15",
+        "26",
+        "52",
+        "56",
+        "58",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 71639.3
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 72,
+          "valorPremio": 1421.41
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1233,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 12351,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3131,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "FLORESTA         /CE",
+      "numero": 2405,
+      "numeroConcursoAnterior": 2404,
+      "numeroConcursoFinal_0_5": 2410,
+      "numeroConcursoProximo": 2406,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1188995.5,
+      "valorAcumuladoConcurso_0_5": 35819.66,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 1195558.48,
+      "valorEstimadoProximoConcurso": 1500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "20/06/2026",
+      "dataProximoConcurso": "23/06/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "59",
+        "75",
+        "80",
+        "07",
+        "20",
+        "53",
+        "01"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "01",
+        "07",
+        "20",
+        "53",
+        "59",
+        "75",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 78577.45
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 69,
+          "valorPremio": 1626.86
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1435,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 13518,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 2354,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "NOVA IGUACU      /RJ",
+      "numero": 2406,
+      "numeroConcursoAnterior": 2405,
+      "numeroConcursoFinal_0_5": 2410,
+      "numeroConcursoProximo": 2407,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1287314,
+      "valorAcumuladoConcurso_0_5": 75108.38,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 1392002.11,
+      "valorEstimadoProximoConcurso": 1700000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "23/06/2026",
+      "dataProximoConcurso": "25/06/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "04",
+        "57",
+        "79",
+        "31",
+        "14",
+        "07",
+        "52"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "07",
+        "14",
+        "31",
+        "52",
+        "57",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 38291.58
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 85,
+          "valorPremio": 1287.11
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1341,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 13216,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 2606,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "SAORAIMUNDO      /RR",
+      "numero": 2407,
+      "numeroConcursoAnterior": 2406,
+      "numeroConcursoFinal_0_5": 2410,
+      "numeroConcursoProximo": 2408,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1259020,
+      "valorAcumuladoConcurso_0_5": 113399.96,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 1583459.98,
+      "valorEstimadoProximoConcurso": 1800000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "25/06/2026",
+      "dataProximoConcurso": "27/06/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "73",
+        "32",
+        "36",
+        "08",
+        "79",
+        "43",
+        "16"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "08",
+        "16",
+        "32",
+        "36",
+        "43",
+        "73",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 51,
+          "valorPremio": 1844.07
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1205,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 11258,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 7832,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ATLETICO         /MG",
+      "numero": 2408,
+      "numeroConcursoAnterior": 2407,
+      "numeroConcursoFinal_0_5": 2410,
+      "numeroConcursoProximo": 2409,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1177732.5,
+      "valorAcumuladoConcurso_0_5": 146316.67,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 1813876.96,
+      "valorEstimadoProximoConcurso": 2000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "27/06/2026",
+      "dataProximoConcurso": "02/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "06",
+        "05",
+        "20",
+        "71",
+        "29",
+        "10",
+        "67"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "06",
+        "10",
+        "20",
+        "29",
+        "67",
+        "71"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 95,
+          "valorPremio": 1069.23
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1498,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 13720,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3631,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "CUIABA           /MT",
+      "numero": 2409,
+      "numeroConcursoAnterior": 2408,
+      "numeroConcursoFinal_0_5": 2410,
+      "numeroConcursoProximo": 2410,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1204994,
+      "valorAcumuladoConcurso_0_5": 2244608.95,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 2244608.95,
+      "valorEstimadoProximoConcurso": 2700000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "02/07/2026",
+      "dataProximoConcurso": "04/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "56",
+        "25",
+        "53",
+        "80",
+        "46",
+        "12",
+        "22"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "12",
+        "22",
+        "25",
+        "46",
+        "53",
+        "56",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 74818.21
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 59,
+          "valorPremio": 1811.57
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1319,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 13096,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 5309,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "GOIAS            /GO",
+      "numero": 2410,
+      "numeroConcursoAnterior": 2409,
+      "numeroConcursoFinal_0_5": 2415,
+      "numeroConcursoProximo": 2411,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1278455.5,
+      "valorAcumuladoConcurso_0_5": 37409.11,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 2431654.46,
+      "valorEstimadoProximoConcurso": 2800000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "04/07/2026",
+      "dataProximoConcurso": "07/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "59",
+        "56",
+        "20",
+        "51",
+        "35",
+        "79",
+        "31"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "20",
+        "31",
+        "35",
+        "51",
+        "56",
+        "59",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 43352.87
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 66,
+          "valorPremio": 1876.74
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1235,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 12722,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3857,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "FLORESTA         /CE",
+      "numero": 2411,
+      "numeroConcursoAnterior": 2410,
+      "numeroConcursoFinal_0_5": 2415,
+      "numeroConcursoProximo": 2412,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1419211.5,
+      "valorAcumuladoConcurso_0_5": 80761.99,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 2648418.82,
+      "valorEstimadoProximoConcurso": 3000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "07/07/2026",
+      "dataProximoConcurso": "09/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "49",
+        "25",
+        "66",
+        "09",
+        "73",
+        "16",
+        "47"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "09",
+        "16",
+        "25",
+        "47",
+        "49",
+        "66",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 11430.23
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 75,
+          "valorPremio": 1306.31
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1464,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 14276,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 20104,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "FLAMENGO         /RJ",
+      "numero": 2412,
+      "numeroConcursoAnterior": 2411,
+      "numeroConcursoFinal_0_5": 2415,
+      "numeroConcursoProximo": 2413,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1452178,
+      "valorAcumuladoConcurso_0_5": 115052.68,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 2819872.27,
+      "valorEstimadoProximoConcurso": 3100000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "09/07/2026",
+      "dataProximoConcurso": "11/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "56",
+        "76",
+        "26",
+        "60",
+        "35",
+        "49",
+        "23"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "23",
+        "26",
+        "35",
+        "49",
+        "56",
+        "60",
+        "76"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 79922.64
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 73,
+          "valorPremio": 1564.04
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1270,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 12349,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 2981,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BRASILIENSE      /DF",
+      "numero": 2413,
+      "numeroConcursoAnterior": 2412,
+      "numeroConcursoFinal_0_5": 2415,
+      "numeroConcursoProximo": 2414,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1305542,
+      "valorAcumuladoConcurso_0_5": 155014,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 3019678.87,
+      "valorEstimadoProximoConcurso": 3200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "11/07/2026",
+      "dataProximoConcurso": "14/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "71",
+        "19",
+        "36",
+        "18",
+        "67",
+        "63",
+        "64"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "18",
+        "19",
+        "36",
+        "63",
+        "64",
+        "67",
+        "71"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 34355.98
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 101,
+          "valorPremio": 1457.82
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1744,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 17207,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3923,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "BRUSQUE          /SC",
+      "numero": 2414,
+      "numeroConcursoAnterior": 2413,
+      "numeroConcursoFinal_0_5": 2415,
+      "numeroConcursoProximo": 2415,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1696163,
+      "valorAcumuladoConcurso_0_5": 3483896.65,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 3483896.65,
+      "valorEstimadoProximoConcurso": 3800000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "14/07/2026",
+      "dataProximoConcurso": "16/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "10",
+        "04",
+        "44",
+        "69",
+        "42",
+        "11",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "04",
+        "10",
+        "11",
+        "21",
+        "42",
+        "44",
+        "69"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 49080.85
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 116,
+          "valorPremio": 1208.88
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2056,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 18446,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3220,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "VOLTA REDONDA    /RJ",
+      "numero": 2415,
+      "numeroConcursoAnterior": 2414,
+      "numeroConcursoFinal_0_5": 2420,
+      "numeroConcursoProximo": 2416,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1629348,
+      "valorAcumuladoConcurso_0_5": 49080.85,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 3729300.9,
+      "valorEstimadoProximoConcurso": 4000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "16/07/2026",
+      "dataProximoConcurso": "19/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "70",
+        "74",
+        "17",
+        "50",
+        "30",
+        "77",
+        "36"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "17",
+        "30",
+        "36",
+        "50",
+        "70",
+        "74",
+        "77"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 30394.18
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 64,
+          "valorPremio": 2035.32
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1400,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 13855,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6318,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CORITIBA         /PR",
+      "numero": 2416,
+      "numeroConcursoAnterior": 2415,
+      "numeroConcursoFinal_0_5": 2420,
+      "numeroConcursoProximo": 2417,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1536398.5,
+      "valorAcumuladoConcurso_0_5": 94672.12,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 3957257.21,
+      "valorEstimadoProximoConcurso": 4200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "19/07/2026",
+      "dataProximoConcurso": "21/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "56",
+        "72",
+        "51",
+        "80",
+        "12",
+        "08",
+        "75"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "08",
+        "12",
+        "51",
+        "56",
+        "72",
+        "75",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 101658.34
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 110,
+          "valorPremio": 1320.23
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1976,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 18089,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 5152,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "APARECIDENSE     /GO",
+      "numero": 2417,
+      "numeroConcursoAnterior": 2416,
+      "numeroConcursoFinal_0_5": 2420,
+      "numeroConcursoProximo": 2418,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1707965,
+      "valorAcumuladoConcurso_0_5": 145501.29,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 4211403.06,
+      "valorEstimadoProximoConcurso": 4500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "21/07/2026",
+      "dataProximoConcurso": "23/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "74",
+        "19",
+        "67",
+        "76",
+        "12",
+        "71",
+        "45"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "12",
+        "19",
+        "45",
+        "67",
+        "71",
+        "74",
+        "76"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 41172.43
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 112,
+          "valorPremio": 1050.31
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1658,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 15399,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 9418,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "ATLETICO         /MG",
+      "numero": 2418,
+      "numeroConcursoAnterior": 2417,
+      "numeroConcursoFinal_0_5": 2420,
+      "numeroConcursoProximo": 2419,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1479072,
+      "valorAcumuladoConcurso_0_5": 186673.72,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 4417265.19,
+      "valorEstimadoProximoConcurso": 4700000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "23/07/2026",
+      "dataProximoConcurso": "26/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "26",
+        "52",
+        "09",
+        "05",
+        "12",
+        "59",
+        "48"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "05",
+        "09",
+        "12",
+        "26",
+        "48",
+        "52",
+        "59"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 22928.76
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 123,
+          "valorPremio": 1065.21
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2024,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 17312,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3886,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "CHAPECOENSE      /SC",
+      "numero": 2419,
+      "numeroConcursoAnterior": 2418,
+      "numeroConcursoFinal_0_5": 2420,
+      "numeroConcursoProximo": 2420,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1539965,
+      "valorAcumuladoConcurso_0_5": 4879084.05,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 4879084.05,
+      "valorEstimadoProximoConcurso": 5200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "26/07/2026",
+      "dataProximoConcurso": "28/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "78",
+        "72",
+        "77",
+        "02",
+        "76",
+        "14",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "02",
+        "14",
+        "21",
+        "72",
+        "76",
+        "77",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 34023.06
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 72,
+          "valorPremio": 2025.18
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1695,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 15364,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3912,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CAXIAS           /RS",
+      "numero": 2420,
+      "numeroConcursoAnterior": 2419,
+      "numeroConcursoFinal_0_5": 2425,
+      "numeroConcursoProximo": 2421,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1667778,
+      "valorAcumuladoConcurso_0_5": 51034.59,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 5134256.97,
+      "valorEstimadoProximoConcurso": 5500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "28/07/2026",
+      "dataProximoConcurso": "30/07/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "52",
+        "56",
+        "07",
+        "34",
+        "65",
+        "37",
+        "23"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "07",
+        "23",
+        "34",
+        "37",
+        "52",
+        "56",
+        "65"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 90146.95
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 88,
+          "valorPremio": 1463.42
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1837,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 15567,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3470,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CAXIAS           /RS",
+      "numero": 2421,
+      "numeroConcursoAnterior": 2420,
+      "numeroConcursoFinal_0_5": 2425,
+      "numeroConcursoProximo": 2422,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1494349.5,
+      "valorAcumuladoConcurso_0_5": 96108.07,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 5359624.33,
+      "valorEstimadoProximoConcurso": 5700000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "30/07/2026",
+      "dataProximoConcurso": "02/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "11",
+        "34",
+        "68",
+        "21",
+        "19",
+        "24",
+        "78"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "11",
+        "19",
+        "21",
+        "24",
+        "34",
+        "68",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 26817.12
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 85,
+          "valorPremio": 1802.83
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1760,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 17620,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3433,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "TOMBENSE         /MG",
+      "numero": 2422,
+      "numeroConcursoAnterior": 2421,
+      "numeroConcursoFinal_0_5": 2425,
+      "numeroConcursoProximo": 2423,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1751067.5,
+      "valorAcumuladoConcurso_0_5": 149742.3,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 5627795.46,
+      "valorEstimadoProximoConcurso": 6000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "02/08/2026",
+      "dataProximoConcurso": "04/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "80",
+        "26",
+        "77",
+        "25",
+        "50",
+        "08",
+        "28"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "08",
+        "25",
+        "26",
+        "28",
+        "50",
+        "77",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 4,
+          "valorPremio": 28934.61
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 92,
+          "valorPremio": 1797.18
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2029,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 19542,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3666,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "TOMBENSE         /MG",
+      "numero": 2423,
+      "numeroConcursoAnterior": 2422,
+      "numeroConcursoFinal_0_5": 2425,
+      "numeroConcursoProximo": 2424,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1895131,
+      "valorAcumuladoConcurso_0_5": 207611.51,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 5917141.51,
+      "valorEstimadoProximoConcurso": 6300000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "04/08/2026",
+      "dataProximoConcurso": "06/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "11",
+        "30",
+        "60",
+        "32",
+        "41",
+        "18",
+        "36"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "11",
+        "18",
+        "30",
+        "32",
+        "36",
+        "41",
+        "60"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 56542.22
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 117,
+          "valorPremio": 1380.76
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1803,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 16911,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3830,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "TOMBENSE         /MG",
+      "numero": 2424,
+      "numeroConcursoAnterior": 2423,
+      "numeroConcursoFinal_0_5": 2425,
+      "numeroConcursoProximo": 2425,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1836842,
+      "valorAcumuladoConcurso_0_5": 6464006.34,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 6464006.34,
+      "valorEstimadoProximoConcurso": 7000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "06/08/2026",
+      "dataProximoConcurso": "09/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "67",
+        "41",
+        "52",
+        "62",
+        "08",
+        "22",
+        "60"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "08",
+        "22",
+        "41",
+        "52",
+        "60",
+        "62",
+        "67"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 81,
+          "valorPremio": 1970.18
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1610,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 15942,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 3670,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "TOCANTINOPOLIS   /TO",
+      "numero": 2425,
+      "numeroConcursoAnterior": 2424,
+      "numeroConcursoFinal_0_5": 2430,
+      "numeroConcursoProximo": 2426,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 1803641,
+      "valorAcumuladoConcurso_0_5": 55854.65,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 6854988.85,
+      "valorEstimadoProximoConcurso": 7200000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "09/08/2026",
+      "dataProximoConcurso": "11/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "73",
+        "59",
+        "09",
+        "44",
+        "16",
+        "25",
+        "24"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "09",
+        "16",
+        "24",
+        "25",
+        "44",
+        "59",
+        "73"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 43669.04
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 125,
+          "valorPremio": 1497.22
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2525,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 22589,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 5235,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "JUVENTUDE        /RS",
+      "numero": 2426,
+      "numeroConcursoAnterior": 2425,
+      "numeroConcursoFinal_0_5": 2430,
+      "numeroConcursoProximo": 2427,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2171673,
+      "valorAcumuladoConcurso_0_5": 121358.2,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 7182506.6,
+      "valorEstimadoProximoConcurso": 7500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "11/08/2026",
+      "dataProximoConcurso": "13/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "37",
+        "71",
+        "09",
+        "31",
+        "24",
+        "06",
+        "03"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "03",
+        "06",
+        "09",
+        "24",
+        "31",
+        "37",
+        "71"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 46513.85
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 140,
+          "valorPremio": 1423.89
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2588,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 24589,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 6771,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "VILA NOVA        /GO",
+      "numero": 2427,
+      "numeroConcursoAnterior": 2426,
+      "numeroConcursoFinal_0_5": 2430,
+      "numeroConcursoProximo": 2428,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2335028.5,
+      "valorAcumuladoConcurso_0_5": 191128.97,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 7531360.44,
+      "valorEstimadoProximoConcurso": 8000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "13/08/2026",
+      "dataProximoConcurso": "16/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "27",
+        "15",
+        "76",
+        "49",
+        "80",
+        "51",
+        "70"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "15",
+        "27",
+        "49",
+        "51",
+        "70",
+        "76",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 7,
+          "valorPremio": 21753.6
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 127,
+          "valorPremio": 1712.88
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2388,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 23326,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 5792,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BOTAFOGO         /SP",
+      "numero": 2428,
+      "numeroConcursoAnterior": 2427,
+      "numeroConcursoFinal_0_5": 2430,
+      "numeroConcursoProximo": 2429,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2487254,
+      "valorAcumuladoConcurso_0_5": 267266.57,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 7912048.44,
+      "valorEstimadoProximoConcurso": 8300000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "16/08/2026",
+      "dataProximoConcurso": "18/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "42",
+        "09",
+        "47",
+        "64",
+        "75",
+        "18",
+        "23"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "09",
+        "18",
+        "23",
+        "42",
+        "47",
+        "64",
+        "75"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 61578.97
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 130,
+          "valorPremio": 1353.38
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2420,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 22752,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 14164,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "ATLETICO         /MG",
+      "numero": 2429,
+      "numeroConcursoAnterior": 2428,
+      "numeroConcursoFinal_0_5": 2430,
+      "numeroConcursoProximo": 2430,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2210271,
+      "valorAcumuladoConcurso_0_5": 8548788.79,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 8548788.79,
+      "valorEstimadoProximoConcurso": 9000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "18/08/2026",
+      "dataProximoConcurso": "20/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "35",
+        "64",
+        "50",
+        "48",
+        "34",
+        "38",
+        "21"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "21",
+        "34",
+        "35",
+        "38",
+        "48",
+        "50",
+        "64"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 42899.34
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 96,
+          "valorPremio": 1915.14
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 1782,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 18757,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 4277,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BARRA FC         /SC",
+      "numero": 2430,
+      "numeroConcursoAnterior": 2429,
+      "numeroConcursoFinal_0_5": 2435,
+      "numeroConcursoProximo": 2431,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2079973,
+      "valorAcumuladoConcurso_0_5": 64349.01,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 8870533.82,
+      "valorEstimadoProximoConcurso": 9300000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "20/08/2026",
+      "dataProximoConcurso": "23/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "55",
+        "65",
+        "18",
+        "63",
+        "22",
+        "72",
+        "58"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "18",
+        "22",
+        "55",
+        "58",
+        "63",
+        "65",
+        "72"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 2,
+          "valorPremio": 61011.18
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 115,
+          "valorPremio": 1515.8
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2026,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 20220,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 8235,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CONFIANCA        /SE",
+      "numero": 2431,
+      "numeroConcursoAnterior": 2430,
+      "numeroConcursoFinal_0_5": 2435,
+      "numeroConcursoProximo": 2432,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2067257.5,
+      "valorAcumuladoConcurso_0_5": 125360.19,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 9175589.7,
+      "valorEstimadoProximoConcurso": 9500000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "23/08/2026",
+      "dataProximoConcurso": "25/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "43",
+        "64",
+        "60",
+        "45",
+        "72",
+        "78",
+        "13"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "13",
+        "43",
+        "45",
+        "60",
+        "64",
+        "72",
+        "78"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 43544.26
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 102,
+          "valorPremio": 1829.59
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2159,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 20869,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 10185,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "VITORIA          /BA",
+      "numero": 2432,
+      "numeroConcursoAnterior": 2431,
+      "numeroConcursoFinal_0_5": 2435,
+      "numeroConcursoProximo": 2433,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2230749.5,
+      "valorAcumuladoConcurso_0_5": 190676.58,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 9502171.63,
+      "valorEstimadoProximoConcurso": 10000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "25/08/2026",
+      "dataProximoConcurso": "27/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "29",
+        "80",
+        "28",
+        "49",
+        "12",
+        "25",
+        "06"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "06",
+        "12",
+        "25",
+        "28",
+        "29",
+        "49",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 6,
+          "valorPremio": 25582.3
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 152,
+          "valorPremio": 1442.61
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 3168,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 28969,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 16017,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "BAHIA            /BA",
+      "numero": 2433,
+      "numeroConcursoAnterior": 2432,
+      "numeroConcursoFinal_0_5": 2435,
+      "numeroConcursoProximo": 2434,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2734368,
+      "valorAcumuladoConcurso_0_5": 267423.46,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 9885906.03,
+      "valorEstimadoProximoConcurso": 10400000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "27/08/2026",
+      "dataProximoConcurso": "30/08/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "79",
+        "07",
+        "50",
+        "42",
+        "38",
+        "52",
+        "09"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "07",
+        "09",
+        "38",
+        "42",
+        "50",
+        "52",
+        "79"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 1,
+          "valorPremio": 140555.98
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 107,
+          "valorPremio": 1876.58
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2313,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 23833,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 9589,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
+      "nomeTimeCoracaoMesSorte": "ATHLETICO        /PR",
+      "numero": 2434,
+      "numeroConcursoAnterior": 2433,
+      "numeroConcursoFinal_0_5": 2435,
+      "numeroConcursoProximo": 2435,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2386359.5,
+      "valorAcumuladoConcurso_0_5": 10574997.42,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 10574997.42,
+      "valorEstimadoProximoConcurso": 11000000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
+    },
+    {
+      "acumulado": true,
+      "dataApuracao": "30/08/2026",
+      "dataProximoConcurso": "01/09/2026",
+      "dezenasSorteadasOrdemSorteio": [
+        "80",
+        "07",
+        "53",
+        "42",
+        "15",
+        "26",
+        "78"
+      ],
+      "exibirDetalhamentoPorCidade": false,
+      "id": null,
+      "indicadorConcursoEspecial": 1,
+      "listaDezenas": [
+        "07",
+        "15",
+        "26",
+        "42",
+        "53",
+        "78",
+        "80"
+      ],
+      "listaDezenasSegundoSorteio": null,
+      "listaMunicipioUFGanhadores": [],
+      "listaRateioPremio": [
+        {
+          "descricaoFaixa": "7 acertos",
+          "faixa": 1,
+          "numeroDeGanhadores": 0,
+          "valorPremio": 0
+        },
+        {
+          "descricaoFaixa": "6 acertos",
+          "faixa": 2,
+          "numeroDeGanhadores": 3,
+          "valorPremio": 45000.39
+        },
+        {
+          "descricaoFaixa": "5 acertos",
+          "faixa": 3,
+          "numeroDeGanhadores": 132,
+          "valorPremio": 1461.05
+        },
+        {
+          "descricaoFaixa": "4 acertos",
+          "faixa": 4,
+          "numeroDeGanhadores": 2574,
+          "valorPremio": 10.5
+        },
+        {
+          "descricaoFaixa": "3 acertos",
+          "faixa": 5,
+          "numeroDeGanhadores": 24580,
+          "valorPremio": 3.5
+        },
+        {
+          "descricaoFaixa": "Time do Coração",
+          "faixa": 6,
+          "numeroDeGanhadores": 17760,
+          "valorPremio": 8.5
+        }
+      ],
+      "listaResultadoEquipeEsportiva": null,
+      "localSorteio": "ESPAÇO DA SORTE",
+      "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+      "nomeTimeCoracaoMesSorte": "CRUZEIRO         /MG",
+      "numero": 2435,
+      "numeroConcursoAnterior": 2434,
+      "numeroConcursoFinal_0_5": 2440,
+      "numeroConcursoProximo": 2436,
+      "numeroJogo": 20,
+      "observacao": "",
+      "premiacaoContingencia": null,
+      "tipoJogo": "TIMEMANIA",
+      "tipoPublicacao": 3,
+      "ultimoConcurso": true,
+      "valorArrecadado": 2456622,
+      "valorAcumuladoConcurso_0_5": 67500.58,
+      "valorAcumuladoConcursoEspecial": 0,
+      "valorAcumuladoProximoConcurso": 10912500.32,
+      "valorEstimadoProximoConcurso": 11300000,
+      "valorSaldoReservaGarantidora": 0,
+      "valorTotalPremioFaixaUm": 0,
+      "year": 2026
     }
   ]
 }

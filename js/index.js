@@ -5,6 +5,25 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentYear = new Date().getFullYear();
   let activeFetchController = null;
 
+  // Dados locais em arquivos .js (compatível com file://)
+  // Cada arquivo de jogo deve preencher:
+  // window.LOTTERY_DATA.<jogo> = { ...dados por ano... }
+  window.LOTTERY_DATA = window.LOTTERY_DATA || {};
+
+  // Os arquivos de dados .js devem ser carregados diretamente no HTML
+  // antes deste index.js. Ex.: modalidades.js, megasena.js, lotofacil.js etc.
+  // Assim este arquivo funciona normalmente via file:/// sem fetch de arquivos locais.
+
+  function getLocalGameData(game) {
+    return window.LOTTERY_DATA?.[game] || null;
+  }
+
+  function getLocalModalidadesData() {
+    return Array.isArray(window.MODALIDADES_DATA)
+      ? window.MODALIDADES_DATA
+      : [];
+  }
+
   const gameTabMs = document.getElementById("game-tab-ms");
   const gameTabLf = document.getElementById("game-tab-lf");
   const gameTabQn = document.getElementById("game-tab-qn");
@@ -354,7 +373,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (mid === 0) break;
 
       updateLoadingProgress(`Verificando concurso ${mid}...`);
-      const concursoExistente = await buscarDadosJson(mid);
+      const concursoExistente = await buscarDadosLocal(mid);
       const data = concursoExistente
         ? concursoExistente
         : await fetchLotteryData(game, mid, signal);
@@ -412,38 +431,52 @@ document.addEventListener("DOMContentLoaded", function () {
     "supersete",
     "maismilionaria",
   ];
-  async function buscarDadosJson(numeroConcurso) {
+  async function buscarDadosLocal(numeroConcurso) {
     if (!concursos[currentGame]) concursos[currentGame] = {};
+
     if (!tiposDeJogo.includes(currentGame)) {
-      /*console.warn(
-        `Tipo de jogo "${currentGame}" não está registrado em tiposDeJogo.`
-      );*/
-      return;
-    }
-    try {
-      const response = await fetch(`../dados/${currentGame}.json`);
-      const jsonConcursos = await response.json();
-      //console.log(jsonConcursos);
-      for (const ano in jsonConcursos) {
-        const emJsonLocal = jsonConcursos[ano].find(
-          (c) => c.numero === numeroConcurso
-        );
-        if (emJsonLocal) {
-          if (!concursos[currentGame][emJsonLocal.year])
-            concursos[currentGame][emJsonLocal.year] = [];
-          if (
-            !concursos[currentGame][emJsonLocal.year]?.find(
-              (c) => c.numero === numeroConcurso
-            )
-          ) {
-            concursos[currentGame][emJsonLocal.year].push(emJsonLocal);
-          }
-          return emJsonLocal;
-        }
-      }
-    } catch (e) {
       return false;
     }
+
+    const dadosLocais = await getLocalGameData(currentGame);
+    if (!dadosLocais) {
+      return false;
+    }
+
+    for (const ano in dadosLocais) {
+      const listaDoAno = dadosLocais[ano];
+      if (!Array.isArray(listaDoAno)) continue;
+
+      const emLocal = listaDoAno.find(
+        (c) => Number(c.numero) === Number(numeroConcurso)
+      );
+
+      if (emLocal) {
+        const anoConcurso =
+          emLocal.year ||
+          new Date(
+            emLocal.dataApuracao.split("/").reverse().join("-")
+          ).getFullYear();
+
+        emLocal.year = anoConcurso;
+
+        if (!concursos[currentGame][anoConcurso]) {
+          concursos[currentGame][anoConcurso] = [];
+        }
+
+        if (
+          !concursos[currentGame][anoConcurso].find(
+            (c) => Number(c.numero) === Number(numeroConcurso)
+          )
+        ) {
+          concursos[currentGame][anoConcurso].push(emLocal);
+        }
+
+        return emLocal;
+      }
+    }
+
+    return false;
   }
 
   /*function buscarConcursoPorNumero(concursos, numeroProcurado) {
@@ -526,7 +559,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (signal.aborted) break;
 
       updateLoadingProgress(`Buscando concurso ${contestToFetch}...`);
-      const concursoExistente = await buscarDadosJson(contestToFetch);
+      const concursoExistente = await buscarDadosLocal(contestToFetch);
       const data = concursoExistente
         ? concursoExistente
         : await fetchLotteryData(currentGame, contestToFetch, signal);
@@ -583,7 +616,7 @@ document.addEventListener("DOMContentLoaded", function () {
         drawListContainer.innerHTML = `<p class="col-span-full text-center text-stone-500 p-8">Nenhum resultado encontrado para ${currentGame} em ${currentYear}.</p>`;
       }
     }
-    //console.log(concursos);
+    console.log(concursos);
     ordenarConcursosPorNumero(concursos);
   }
 
@@ -630,11 +663,10 @@ document.addEventListener("DOMContentLoaded", function () {
     hideError();
     showLoading(true);
     updateLoadingProgress(`Buscando concurso ${contestNumber}...`);
-    //const concursoExistente = await buscarDadosJson(+contestNumber);
-    //console.log(concursoExistente);
-    const data = /*concursoExistente
+    const concursoExistente = await buscarDadosLocal(+contestNumber);
+    const data = concursoExistente
       ? concursoExistente
-      :*/ await fetchLotteryData(currentGame, contestNumber);
+      : await fetchLotteryData(currentGame, contestNumber);
     showLoading(false);
     if (data && !data.error) {
       showModal(data, currentGame);
@@ -649,11 +681,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function getInfoMod(currentGame) {
     if (tiposJogos.length === 0) {
-      const response = await fetch("../dados/modalidades.json");
-      const data = await response.json();
+      const data = getLocalModalidadesData();
       tiposJogos.push(...data);
     }
-    return tiposJogos.find((c) => c.id === currentGame);
+
+    const info = tiposJogos.find((c) => c.id === currentGame);
+    if (!info) {
+      throw new Error(
+        `Modalidade "${currentGame}" não encontrada em window.MODALIDADES_DATA. ` +
+        `Confirme que modalidades.js foi carregado antes de index.js no HTML.`
+      );
+    }
+
+    return info;
   }
 
   const gameMapping = {
