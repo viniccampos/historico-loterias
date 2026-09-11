@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const summaryYearSpan = document.getElementById("summary-year");
   const contestSearchInput = document.getElementById("contest-search-input");
   const contestSearchButton = document.getElementById("contest-search-button");
+  const themeToggle = document.getElementById("theme-toggle");
 
   const modal = document.getElementById("draw-modal");
   const modalContent = document.getElementById("modal-content");
@@ -91,6 +92,60 @@ document.addEventListener("DOMContentLoaded", function () {
     errorMessage.classList.add("hidden");
   }
 
+  function waitForPresentation(ms, signal) {
+    return new Promise((resolve) => {
+      if (signal?.aborted) {
+        resolve(false);
+        return;
+      }
+
+      const timer = setTimeout(() => {
+        signal?.removeEventListener("abort", onAbort);
+        resolve(true);
+      }, ms);
+
+      function onAbort() {
+        clearTimeout(timer);
+        resolve(false);
+      }
+
+      signal?.addEventListener("abort", onAbort, { once: true });
+    });
+  }
+
+  function applyTheme(theme, persist = true) {
+    const isLight = theme === "light";
+    document.documentElement.dataset.theme = isLight ? "light" : "dark";
+
+    if (themeToggle) {
+      const nextThemeName = isLight ? "escuro" : "claro";
+      themeToggle.setAttribute("aria-label", `Ativar tema ${nextThemeName}`);
+      themeToggle.setAttribute("title", `Ativar tema ${nextThemeName}`);
+    }
+
+    if (persist) {
+      try {
+        localStorage.setItem("lottery-theme", isLight ? "light" : "dark");
+      } catch (_) {}
+    }
+  }
+
+  function setupTheme() {
+    let savedTheme = document.documentElement.dataset.theme || "dark";
+    try {
+      savedTheme = localStorage.getItem("lottery-theme") || savedTheme;
+    } catch (_) {}
+
+    applyTheme(savedTheme === "light" ? "light" : "dark", false);
+
+    themeToggle?.addEventListener("click", () => {
+      const nextTheme = document.documentElement.dataset.theme === "light"
+        ? "dark"
+        : "light";
+      applyTheme(nextTheme);
+    });
+  }
+
   async function fetchLotteryData(game, contest, signal) {
     try {
       const response = await fetch(`${API_BASE_URL}/${game}/${contest}`, {
@@ -117,7 +172,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const card = document.createElement("div");
     card.className =
-      "draw-card bg-white p-3 rounded-lg border border-stone-200 shadow-sm text-sm";
+      "draw-card draw-card-enter bg-white p-3 rounded-lg border border-stone-200 shadow-sm text-sm";
+    card.classList.add(data.acumulado ? "result-lost" : "result-won");
 
     const winnerClass = data.acumulado ? "text-red-600" : "text-green-600";
     const winnerIcon = data.acumulado ? "✗" : "✓";
@@ -158,6 +214,9 @@ document.addEventListener("DOMContentLoaded", function () {
                  `;
     card.addEventListener("click", () => showModal(data, game));
     container.appendChild(card);
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => card.classList.add("draw-card-visible"));
+    });
   }
 
   function isNotEmpty(value) {
@@ -344,16 +403,24 @@ document.addEventListener("DOMContentLoaded", function () {
     modalOutrosPremios.appendChild(table);
 
     modal.classList.remove("pointer-events-none");
-    modal.classList.add("bg-opacity-50");
+    modal.classList.add("is-open");
+    modal.setAttribute("aria-hidden", "false");
+    document.documentElement.classList.add("modal-open");
+    document.body.classList.add("modal-open");
     modalContent.classList.remove("opacity-0", "scale-95");
   }
 
   function hideModal() {
-    modal.classList.remove("bg-opacity-50");
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
+    document.documentElement.classList.remove("modal-open");
+    document.body.classList.remove("modal-open");
     modalContent.classList.add("opacity-0", "scale-95");
     setTimeout(() => {
-      modal.classList.add("pointer-events-none");
-    }, 300);
+      if (!modal.classList.contains("is-open")) {
+        modal.classList.add("pointer-events-none");
+      }
+    }, 220);
   }
 
   async function findContestBoundary(
@@ -589,6 +656,10 @@ document.addEventListener("DOMContentLoaded", function () {
         data.year === currentYear &&
         !signal.aborted
       ) {
+        const presentationDelay = 55 + Math.floor(Math.random() * 45);
+        const presentationReady = await waitForPresentation(presentationDelay, signal);
+        if (!presentationReady || signal.aborted) break;
+
         renderResultCard(drawListContainer, data, currentGame);
         if (!data.acumulado) {
           const mainPrizeTier =
@@ -663,10 +734,17 @@ document.addEventListener("DOMContentLoaded", function () {
     hideError();
     showLoading(true);
     updateLoadingProgress(`Buscando concurso ${contestNumber}...`);
+    const loadingStartedAt = performance.now();
     const concursoExistente = await buscarDadosLocal(+contestNumber);
     const data = concursoExistente
       ? concursoExistente
       : await fetchLotteryData(currentGame, contestNumber);
+
+    const elapsed = performance.now() - loadingStartedAt;
+    if (elapsed < 420) {
+      await waitForPresentation(420 - elapsed);
+    }
+
     showLoading(false);
     if (data && !data.error) {
       showModal(data, currentGame);
@@ -737,6 +815,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (e.target === modal) hideModal();
   });
 
+  setupTheme();
   setupYearSelector();
   loadYearData();
 });
