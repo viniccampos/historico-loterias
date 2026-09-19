@@ -224,6 +224,69 @@ document.addEventListener("DOMContentLoaded", function () {
     return value && value.trim() !== "";
   }
 
+  async function copyTextToClipboard(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    textarea.style.pointerEvents = "none";
+    document.body.appendChild(textarea);
+    textarea.select();
+    textarea.setSelectionRange(0, textarea.value.length);
+
+    const copied = document.execCommand("copy");
+    textarea.remove();
+
+    if (!copied) {
+      throw new Error("Não foi possível copiar os números.");
+    }
+  }
+
+  function configureCopyableNumberRow(element, numbers, label = "Números sorteados") {
+    element.onclick = null;
+    element.onkeydown = null;
+    element.classList.remove("is-copyable", "copy-success");
+    element.removeAttribute("title");
+    element.removeAttribute("role");
+    element.removeAttribute("tabindex");
+    element.removeAttribute("aria-label");
+
+    if (!Array.isArray(numbers) || numbers.length === 0) return;
+
+    const copyNumbers = async () => {
+      const text = numbers.map((number) => String(Number(number))).join(" - ");
+
+      try {
+        await copyTextToClipboard(text);
+        element.classList.remove("copy-success");
+        void element.offsetWidth;
+        element.classList.add("copy-success");
+        setTimeout(() => element.classList.remove("copy-success"), 650);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    element.classList.add("is-copyable");
+    element.title = `Clique para copiar: ${numbers.map((number) => String(Number(number))).join(" - ")}`;
+    element.setAttribute("role", "button");
+    element.setAttribute("tabindex", "0");
+    element.setAttribute("aria-label", `${label}. Clique para copiar.`);
+    element.onclick = copyNumbers;
+    element.onkeydown = (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        copyNumbers();
+      }
+    };
+  }
+
   async function showModal(data, game) {
     const gameInfo = await getInfoMod(game);
     modalTitle.innerHTML = `
@@ -302,6 +365,24 @@ document.addEventListener("DOMContentLoaded", function () {
         modalDezenas.appendChild(ball);
       }
     });
+
+    configureCopyableNumberRow(modalDezenas, data.listaDezenas, "Números sorteados");
+
+    if (data.tipoJogo === "DUPLA_SENA") {
+      configureCopyableNumberRow(
+        modalDezenasSegundoSorteio,
+        data.listaDezenasSegundoSorteio,
+        "Números do segundo sorteio"
+      );
+    } else if (data.tipoJogo === "MAIS_MILIONARIA") {
+      configureCopyableNumberRow(
+        modalDezenasSegundoSorteio,
+        data.trevosSorteados,
+        "Trevos sorteados"
+      );
+    } else {
+      configureCopyableNumberRow(modalDezenasSegundoSorteio, []);
+    }
 
     if (data.tipoJogo === "TIMEMANIA") {
       modalTimemaniaContainer.innerHTML = `

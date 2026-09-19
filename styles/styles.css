@@ -545,6 +545,25 @@ body.modal-open {
 }
 #modal-dezenas-segundo-sorteio { margin-top: 10px; }
 
+.number-row.is-copyable {
+    cursor: copy;
+    border-radius: 12px;
+    transition: filter .18s ease, transform .18s ease;
+}
+
+.number-row.is-copyable:hover {
+    filter: brightness(1.08);
+}
+
+.number-row.is-copyable.copy-success {
+    animation: copiedNumbers .65s ease;
+}
+
+@keyframes copiedNumbers {
+    0%, 100% { transform: scale(1); }
+    45% { transform: scale(1.018); }
+}
+
 #modal-dezenas .text-stone-700,
 #modal-dezenas-segundo-sorteio .text-stone-700,
 #modal-dezenas .text-stone-600,
